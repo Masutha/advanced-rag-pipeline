@@ -4,7 +4,7 @@
 
 **Authors**
 - Mashudu Maboko
--Supervised by: Gift Malebo Maboko — MSc Engineering: Artificial Intelligence; Data Scientist / AI and Data Engineering Practitioner
+- Supervised by: Gift Malebo Maboko — MSc Engineering: Artificial Intelligence; Data Scientist / AI and Data Engineering Practitioner
 
 ---
 
