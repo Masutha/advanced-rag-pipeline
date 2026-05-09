@@ -197,8 +197,7 @@ nltk.download('punkt_tab')
 
 ---
 
-## Project Origin Note
-This project originated from an advanced data science and RAG implementation task and was expanded into a complete software design project.
+
 
 ---
 
