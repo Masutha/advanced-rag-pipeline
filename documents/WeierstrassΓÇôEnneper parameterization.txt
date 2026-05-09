@@ -1,0 +1,2512 @@
+In mathematics, the Weierstrass–Enneper parameterization of minimal surfaces is a classical piece of differential geometry.
+Alfred Enneper and Karl Weierstrass studied minimal surfaces as far back as 1863.
+
+Let 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+ and 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+  
+ be functions on either the entire complex plane or the unit disk, where 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+  
+ is meromorphic and 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+ is analytic, such that wherever 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+  
+ has a pole of order 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+  
+, 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+ has a zero of order 
+  
+    
+      
+        2
+        m
+      
+    
+    {\displaystyle 2m}
+  
+ (or equivalently, such that the product 
+  
+    
+      
+        f
+        
+          g
+          
+            2
+          
+        
+      
+    
+    {\displaystyle fg^{2}}
+  
+ is holomorphic), and let 
+  
+    
+      
+        
+          c
+          
+            1
+          
+        
+        ,
+        
+          c
+          
+            2
+          
+        
+        ,
+        
+          c
+          
+            3
+          
+        
+      
+    
+    {\displaystyle c_{1},c_{2},c_{3}}
+  
+ be constants.  Then the surface with coordinates 
+  
+    
+      
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          x
+          
+            2
+          
+        
+        ,
+        
+          x
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle (x_{1},x_{2},x_{3})}
+  
+ is minimal, where the 
+  
+    
+      
+        
+          x
+          
+            k
+          
+        
+      
+    
+    {\displaystyle x_{k}}
+  
+ are defined using the real part of a complex integral, as follows:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  x
+                  
+                    k
+                  
+                
+                (
+                ζ
+                )
+              
+              
+                
+                
+
+                
+                =
+                
+                  R
+                  e
+                
+                
+                  {
+                  
+                    
+                      ∫
+                      
+                        0
+                      
+                      
+                        ζ
+                      
+                    
+                    
+                      φ
+                      
+                        k
+                      
+                    
+                    (
+                    z
+                    )
+                    
+                    d
+                    z
+                  
+                  }
+                
+                +
+                
+                  c
+                  
+                    k
+                  
+                
+                ,
+                
+                k
+                =
+                1
+                ,
+                2
+                ,
+                3
+              
+            
+            
+              
+                
+                  φ
+                  
+                    1
+                  
+                
+              
+              
+                
+                
+
+                
+                =
+                f
+                (
+                1
+                −
+                
+                  g
+                  
+                    2
+                  
+                
+                )
+                
+                  /
+                
+                2
+              
+            
+            
+              
+                
+                  φ
+                  
+                    2
+                  
+                
+              
+              
+                
+                
+
+                
+                =
+                i
+                f
+                (
+                1
+                +
+                
+                  g
+                  
+                    2
+                  
+                
+                )
+                
+                  /
+                
+                2
+              
+            
+            
+              
+                
+                  φ
+                  
+                    3
+                  
+                
+              
+              
+                
+                
+
+                
+                =
+                f
+                g
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}x_{k}(\zeta )&{}=\mathrm {Re} \left\{\int _{0}^{\zeta }\varphi _{k}(z)\,dz\right\}+c_{k},\qquad k=1,2,3\\\varphi _{1}&{}=f(1-g^{2})/2\\\varphi _{2}&{}=if(1+g^{2})/2\\\varphi _{3}&{}=fg\end{aligned}}}
+  
+
+The converse is also true: every nonplanar minimal surface defined over a simply connected domain can be given a parametrization of this type.
+For example, Enneper's surface has f(z) = 1, g(z) = zm.
+
+Parametric surface of complex variables
+The Weierstrass-Enneper model defines  a minimal surface 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ (
+  
+    
+      
+        
+          
+            R
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{3}}
+  
+) on a complex plane (
+  
+    
+      
+        
+          C
+        
+      
+    
+    {\displaystyle \mathbb {C} }
+  
+). Let 
+  
+    
+      
+        ω
+        =
+        u
+        +
+        v
+        i
+      
+    
+    {\displaystyle \omega =u+vi}
+  
+ (the complex plane as the 
+  
+    
+      
+        u
+        v
+      
+    
+    {\displaystyle uv}
+  
+ space), the Jacobian matrix of the surface can be written as a column of complex entries:
+
+  
+    
+      
+        
+          J
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    (
+                    
+                      1
+                      −
+                      
+                        g
+                        
+                          2
+                        
+                      
+                      (
+                      ω
+                      )
+                    
+                    )
+                  
+                  f
+                  (
+                  ω
+                  )
+                
+              
+              
+                
+                  i
+                  
+                    (
+                    
+                      1
+                      +
+                      
+                        g
+                        
+                          2
+                        
+                      
+                      (
+                      ω
+                      )
+                    
+                    )
+                  
+                  f
+                  (
+                  ω
+                  )
+                
+              
+              
+                
+                  2
+                  g
+                  (
+                  ω
+                  )
+                  f
+                  (
+                  ω
+                  )
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle \mathbf {J} ={\begin{bmatrix}\left(1-g^{2}(\omega )\right)f(\omega )\\i\left(1+g^{2}(\omega )\right)f(\omega )\\2g(\omega )f(\omega )\end{bmatrix}}}
+  
+
+where 
+  
+    
+      
+        f
+        (
+        ω
+        )
+      
+    
+    {\displaystyle f(\omega )}
+  
+ and 
+  
+    
+      
+        g
+        (
+        ω
+        )
+      
+    
+    {\displaystyle g(\omega )}
+  
+ are holomorphic functions of 
+  
+    
+      
+        ω
+      
+    
+    {\displaystyle \omega }
+  
+.
+The Jacobian 
+  
+    
+      
+        
+          J
+        
+      
+    
+    {\displaystyle \mathbf {J} }
+  
+ represents the two orthogonal tangent vectors of the surface:
+
+  
+    
+      
+        
+          
+            X
+            
+              u
+            
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  Re
+                  ⁡
+                  
+                    
+                      J
+                    
+                    
+                      1
+                    
+                  
+                
+              
+              
+                
+                  Re
+                  ⁡
+                  
+                    
+                      J
+                    
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  Re
+                  ⁡
+                  
+                    
+                      J
+                    
+                    
+                      3
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        
+        
+        
+        
+        
+          
+            X
+            
+              v
+            
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  −
+                  Im
+                  ⁡
+                  
+                    
+                      J
+                    
+                    
+                      1
+                    
+                  
+                
+              
+              
+                
+                  −
+                  Im
+                  ⁡
+                  
+                    
+                      J
+                    
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  −
+                  Im
+                  ⁡
+                  
+                    
+                      J
+                    
+                    
+                      3
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle \mathbf {X_{u}} ={\begin{bmatrix}\operatorname {Re} \mathbf {J} _{1}\\\operatorname {Re} \mathbf {J} _{2}\\\operatorname {Re} \mathbf {J} _{3}\end{bmatrix}}\;\;\;\;\mathbf {X_{v}} ={\begin{bmatrix}-\operatorname {Im} \mathbf {J} _{1}\\-\operatorname {Im} \mathbf {J} _{2}\\-\operatorname {Im} \mathbf {J} _{3}\end{bmatrix}}}
+  
+
+The surface normal is given by
+
+  
+    
+      
+        
+          
+            
+              n
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              
+                
+                  X
+                  
+                    u
+                  
+                
+              
+              ×
+              
+                
+                  X
+                  
+                    v
+                  
+                
+              
+            
+            
+              
+                |
+              
+              
+                
+                  X
+                  
+                    u
+                  
+                
+              
+              ×
+              
+                
+                  X
+                  
+                    v
+                  
+                
+              
+              
+                |
+              
+            
+          
+        
+        =
+        
+          
+            1
+            
+              
+                |
+              
+              g
+              
+                
+                  |
+                
+                
+                  2
+                
+              
+              +
+              1
+            
+          
+        
+        
+          
+            [
+            
+              
+                
+                  2
+                  Re
+                  ⁡
+                  g
+                
+              
+              
+                
+                  2
+                  Im
+                  ⁡
+                  g
+                
+              
+              
+                
+                  
+                    |
+                  
+                  g
+                  
+                    
+                      |
+                    
+                    
+                      2
+                    
+                  
+                  −
+                  1
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle \mathbf {\hat {n}} ={\frac {\mathbf {X_{u}} \times \mathbf {X_{v}} }{|\mathbf {X_{u}} \times \mathbf {X_{v}} |}}={\frac {1}{|g|^{2}+1}}{\begin{bmatrix}2\operatorname {Re} g\\2\operatorname {Im} g\\|g|^{2}-1\end{bmatrix}}}
+  
+
+The Jacobian 
+  
+    
+      
+        
+          J
+        
+      
+    
+    {\displaystyle \mathbf {J} }
+  
+ leads to a number of important properties: 
+  
+    
+      
+        
+          
+            X
+            
+              u
+            
+          
+        
+        ⋅
+        
+          
+            X
+            
+              v
+            
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \mathbf {X_{u}} \cdot \mathbf {X_{v}} =0}
+  
+, 
+  
+    
+      
+        
+          
+            
+              X
+              
+                u
+              
+            
+          
+          
+            2
+          
+        
+        =
+        Re
+        ⁡
+        (
+        
+          
+            J
+          
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle \mathbf {X_{u}} ^{2}=\operatorname {Re} (\mathbf {J} ^{2})}
+  
+, 
+  
+    
+      
+        
+          
+            
+              X
+              
+                v
+              
+            
+          
+          
+            2
+          
+        
+        =
+        Im
+        ⁡
+        (
+        
+          
+            J
+          
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle \mathbf {X_{v}} ^{2}=\operatorname {Im} (\mathbf {J} ^{2})}
+  
+, 
+  
+    
+      
+        
+          
+            X
+            
+              u
+              u
+            
+          
+        
+        +
+        
+          
+            X
+            
+              v
+              v
+            
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \mathbf {X_{uu}} +\mathbf {X_{vv}} =0}
+  
+. The proofs can be found in Sharma's essay: The Weierstrass representation always gives a minimal surface.  The  derivatives can be used to construct the first fundamental form matrix:
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  
+                    
+                      X
+                      
+                        u
+                      
+                    
+                  
+                  ⋅
+                  
+                    
+                      X
+                      
+                        u
+                      
+                    
+                  
+                
+                
+                  
+                  
+                  
+                    
+                      X
+                      
+                        u
+                      
+                    
+                  
+                  ⋅
+                  
+                    
+                      X
+                      
+                        v
+                      
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      X
+                      
+                        v
+                      
+                    
+                  
+                  ⋅
+                  
+                    
+                      X
+                      
+                        u
+                      
+                    
+                  
+                
+                
+                  
+                  
+                  
+                    
+                      X
+                      
+                        v
+                      
+                    
+                  
+                  ⋅
+                  
+                    
+                      X
+                      
+                        v
+                      
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  1
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  1
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle {\begin{bmatrix}\mathbf {X_{u}} \cdot \mathbf {X_{u}} &\;\;\mathbf {X_{u}} \cdot \mathbf {X_{v}} \\\mathbf {X_{v}} \cdot \mathbf {X_{u}} &\;\;\mathbf {X_{v}} \cdot \mathbf {X_{v}} \end{bmatrix}}={\begin{bmatrix}1&0\\0&1\end{bmatrix}}}
+  
+
+and the second fundamental form matrix
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  
+                    
+                      X
+                      
+                        u
+                        u
+                      
+                    
+                  
+                  ⋅
+                  
+                    
+                      
+                        n
+                        ^
+                      
+                    
+                  
+                
+                
+                  
+                  
+                  
+                    
+                      X
+                      
+                        u
+                        v
+                      
+                    
+                  
+                  ⋅
+                  
+                    
+                      
+                        n
+                        ^
+                      
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      X
+                      
+                        v
+                        u
+                      
+                    
+                  
+                  ⋅
+                  
+                    
+                      
+                        n
+                        ^
+                      
+                    
+                  
+                
+                
+                  
+                  
+                  
+                    
+                      X
+                      
+                        v
+                        v
+                      
+                    
+                  
+                  ⋅
+                  
+                    
+                      
+                        n
+                        ^
+                      
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle {\begin{bmatrix}\mathbf {X_{uu}} \cdot \mathbf {\hat {n}} &\;\;\mathbf {X_{uv}} \cdot \mathbf {\hat {n}} \\\mathbf {X_{vu}} \cdot \mathbf {\hat {n}} &\;\;\mathbf {X_{vv}} \cdot \mathbf {\hat {n}} \end{bmatrix}}}
+  
+
+Finally, a point 
+  
+    
+      
+        
+          ω
+          
+            t
+          
+        
+      
+    
+    {\displaystyle \omega _{t}}
+  
+ on the complex plane maps to a point 
+  
+    
+      
+        
+          X
+        
+      
+    
+    {\displaystyle \mathbf {X} }
+  
+ on the minimal surface in 
+  
+    
+      
+        
+          
+            R
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{3}}
+  
+ by
+
+  
+    
+      
+        
+          X
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  Re
+                  ⁡
+                  
+                    ∫
+                    
+                      
+                        ω
+                        
+                          0
+                        
+                      
+                    
+                    
+                      
+                        ω
+                        
+                          t
+                        
+                      
+                    
+                  
+                  
+                    
+                      J
+                    
+                    
+                      1
+                    
+                  
+                  d
+                  ω
+                
+              
+              
+                
+                  Re
+                  ⁡
+                  
+                    ∫
+                    
+                      
+                        ω
+                        
+                          0
+                        
+                      
+                    
+                    
+                      
+                        ω
+                        
+                          t
+                        
+                      
+                    
+                  
+                  
+                    
+                      J
+                    
+                    
+                      2
+                    
+                  
+                  d
+                  ω
+                
+              
+              
+                
+                  Re
+                  ⁡
+                  
+                    ∫
+                    
+                      
+                        ω
+                        
+                          0
+                        
+                      
+                    
+                    
+                      
+                        ω
+                        
+                          t
+                        
+                      
+                    
+                  
+                  
+                    
+                      J
+                    
+                    
+                      3
+                    
+                  
+                  d
+                  ω
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle \mathbf {X} ={\begin{bmatrix}\operatorname {Re} \int _{\omega _{0}}^{\omega _{t}}\mathbf {J} _{1}d\omega \\\operatorname {Re} \int _{\omega _{0}}^{\omega _{t}}\mathbf {J} _{2}d\omega \\\operatorname {Re} \int _{\omega _{0}}^{\omega _{t}}\mathbf {J} _{3}d\omega \end{bmatrix}}}
+  
+
+where 
+  
+    
+      
+        
+          ω
+          
+            0
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \omega _{0}=0}
+  
+ for all minimal surfaces throughout this paper except for Costa's minimal surface where 
+  
+    
+      
+        
+          ω
+          
+            0
+          
+        
+        =
+        (
+        1
+        +
+        i
+        )
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle \omega _{0}=(1+i)/2}
+  
+.
+
+Embedded minimal surfaces and examples
+The classical examples of embedded  complete minimal surfaces in 
+  
+    
+      
+        
+          
+            R
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{3}}
+  
+ with finite topology include the plane, the catenoid, the helicoid, and the Costa's minimal surface. Costa's surface involves Weierstrass's elliptic function 
+  
+    
+      
+        ℘
+      
+    
+    {\displaystyle \wp }
+  
+:
+
+  
+    
+      
+        g
+        (
+        ω
+        )
+        =
+        
+          
+            A
+            
+              
+                ℘
+                ′
+              
+              (
+              ω
+              )
+            
+          
+        
+      
+    
+    {\displaystyle g(\omega )={\frac {A}{\wp '(\omega )}}}
+  
+
+  
+    
+      
+        f
+        (
+        ω
+        )
+        =
+        ℘
+        (
+        ω
+        )
+      
+    
+    {\displaystyle f(\omega )=\wp (\omega )}
+  
+
+where 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ is a constant.
+
+Helicatenoid
+Choosing the functions 
+  
+    
+      
+        f
+        (
+        ω
+        )
+        =
+        
+          e
+          
+            −
+            i
+            α
+          
+        
+        
+          e
+          
+            ω
+            
+              /
+            
+            A
+          
+        
+      
+    
+    {\displaystyle f(\omega )=e^{-i\alpha }e^{\omega /A}}
+  
+ and 
+  
+    
+      
+        g
+        (
+        ω
+        )
+        =
+        
+          e
+          
+            −
+            ω
+            
+              /
+            
+            A
+          
+        
+      
+    
+    {\displaystyle g(\omega )=e^{-\omega /A}}
+  
+, a one parameter family of minimal surfaces is obtained.
+
+  
+    
+      
+        
+          φ
+          
+            1
+          
+        
+        =
+        
+          e
+          
+            −
+            i
+            α
+          
+        
+        sinh
+        ⁡
+        
+          (
+          
+            
+              ω
+              A
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \varphi _{1}=e^{-i\alpha }\sinh \left({\frac {\omega }{A}}\right)}
+  
+
+  
+    
+      
+        
+          φ
+          
+            2
+          
+        
+        =
+        i
+        
+          e
+          
+            −
+            i
+            α
+          
+        
+        cosh
+        ⁡
+        
+          (
+          
+            
+              ω
+              A
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \varphi _{2}=ie^{-i\alpha }\cosh \left({\frac {\omega }{A}}\right)}
+  
+
+  
+    
+      
+        
+          φ
+          
+            3
+          
+        
+        =
+        
+          e
+          
+            −
+            i
+            α
+          
+        
+      
+    
+    {\displaystyle \varphi _{3}=e^{-i\alpha }}
+  
+
+  
+    
+      
+        
+          X
+        
+        (
+        ω
+        )
+        =
+        Re
+        ⁡
+        
+          
+            [
+            
+              
+                
+                  
+                    e
+                    
+                      −
+                      i
+                      α
+                    
+                  
+                  A
+                  cosh
+                  ⁡
+                  
+                    (
+                    
+                      
+                        ω
+                        A
+                      
+                    
+                    )
+                  
+                
+              
+              
+                
+                  i
+                  
+                    e
+                    
+                      −
+                      i
+                      α
+                    
+                  
+                  A
+                  sinh
+                  ⁡
+                  
+                    (
+                    
+                      
+                        ω
+                        A
+                      
+                    
+                    )
+                  
+                
+              
+              
+                
+                  
+                    e
+                    
+                      −
+                      i
+                      α
+                    
+                  
+                  ω
+                
+              
+            
+            ]
+          
+        
+        =
+        cos
+        ⁡
+        (
+        α
+        )
+        
+          
+            [
+            
+              
+                
+                  A
+                  cosh
+                  ⁡
+                  
+                    (
+                    
+                      
+                        
+                          Re
+                          ⁡
+                          (
+                          ω
+                          )
+                        
+                        A
+                      
+                    
+                    )
+                  
+                  cos
+                  ⁡
+                  
+                    (
+                    
+                      
+                        
+                          Im
+                          ⁡
+                          (
+                          ω
+                          )
+                        
+                        A
+                      
+                    
+                    )
+                  
+                
+              
+              
+                
+                  −
+                  A
+                  cosh
+                  ⁡
+                  
+                    (
+                    
+                      
+                        
+                          Re
+                          ⁡
+                          (
+                          ω
+                          )
+                        
+                        A
+                      
+                    
+                    )
+                  
+                  sin
+                  ⁡
+                  
+                    (
+                    
+                      
+                        
+                          Im
+                          ⁡
+                          (
+                          ω
+                          )
+                        
+                        A
+                      
+                    
+                    )
+                  
+                
+              
+              
+                
+                  Re
+                  ⁡
+                  (
+                  ω
+                  )
+                
+              
+            
+            ]
+          
+        
+        +
+        sin
+        ⁡
+        (
+        α
+        )
+        
+          
+            [
+            
+              
+                
+                  A
+                  sinh
+                  ⁡
+                  
+                    (
+                    
+                      
+                        
+                          Re
+                          ⁡
+                          (
+                          ω
+                          )
+                        
+                        A
+                      
+                    
+                    )
+                  
+                  sin
+                  ⁡
+                  
+                    (
+                    
+                      
+                        
+                          Im
+                          ⁡
+                          (
+                          ω
+                          )
+                        
+                        A
+                      
+                    
+                    )
+                  
+                
+              
+              
+                
+                  A
+                  sinh
+                  ⁡
+                  
+                    (
+                    
+                      
+                        
+                          Re
+                          ⁡
+                          (
+                          ω
+                          )
+                        
+                        A
+                      
+                    
+                    )
+                  
+                  cos
+                  ⁡
+                  
+                    (
+                    
+                      
+                        
+                          Im
+                          ⁡
+                          (
+                          ω
+                          )
+                        
+                        A
+                      
+                    
+                    )
+                  
+                
+              
+              
+                
+                  Im
+                  ⁡
+                  (
+                  ω
+                  )
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle \mathbf {X} (\omega )=\operatorname {Re} {\begin{bmatrix}e^{-i\alpha }A\cosh \left({\frac {\omega }{A}}\right)\\ie^{-i\alpha }A\sinh \left({\frac {\omega }{A}}\right)\\e^{-i\alpha }\omega \\\end{bmatrix}}=\cos(\alpha ){\begin{bmatrix}A\cosh \left({\frac {\operatorname {Re} (\omega )}{A}}\right)\cos \left({\frac {\operatorname {Im} (\omega )}{A}}\right)\\-A\cosh \left({\frac {\operatorname {Re} (\omega )}{A}}\right)\sin \left({\frac {\operatorname {Im} (\omega )}{A}}\right)\\\operatorname {Re} (\omega )\\\end{bmatrix}}+\sin(\alpha ){\begin{bmatrix}A\sinh \left({\frac {\operatorname {Re} (\omega )}{A}}\right)\sin \left({\frac {\operatorname {Im} (\omega )}{A}}\right)\\A\sinh \left({\frac {\operatorname {Re} (\omega )}{A}}\right)\cos \left({\frac {\operatorname {Im} (\omega )}{A}}\right)\\\operatorname {Im} (\omega )\\\end{bmatrix}}}
+  
+
+Choosing the parameters of the surface as 
+  
+    
+      
+        ω
+        =
+        s
+        +
+        i
+        (
+        A
+        ϕ
+        )
+      
+    
+    {\displaystyle \omega =s+i(A\phi )}
+  
+:
+
+  
+    
+      
+        
+          X
+        
+        (
+        s
+        ,
+        ϕ
+        )
+        =
+        cos
+        ⁡
+        (
+        α
+        )
+        
+          
+            [
+            
+              
+                
+                  A
+                  cosh
+                  ⁡
+                  
+                    (
+                    
+                      
+                        s
+                        A
+                      
+                    
+                    )
+                  
+                  cos
+                  ⁡
+                  
+                    (
+                    ϕ
+                    )
+                  
+                
+              
+              
+                
+                  −
+                  A
+                  cosh
+                  ⁡
+                  
+                    (
+                    
+                      
+                        s
+                        A
+                      
+                    
+                    )
+                  
+                  sin
+                  ⁡
+                  
+                    (
+                    ϕ
+                    )
+                  
+                
+              
+              
+                
+                  s
+                
+              
+            
+            ]
+          
+        
+        +
+        sin
+        ⁡
+        (
+        α
+        )
+        
+          
+            [
+            
+              
+                
+                  A
+                  sinh
+                  ⁡
+                  
+                    (
+                    
+                      
+                        s
+                        A
+                      
+                    
+                    )
+                  
+                  sin
+                  ⁡
+                  
+                    (
+                    ϕ
+                    )
+                  
+                
+              
+              
+                
+                  A
+                  sinh
+                  ⁡
+                  
+                    (
+                    
+                      
+                        s
+                        A
+                      
+                    
+                    )
+                  
+                  cos
+                  ⁡
+                  
+                    (
+                    ϕ
+                    )
+                  
+                
+              
+              
+                
+                  A
+                  ϕ
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle \mathbf {X} (s,\phi )=\cos(\alpha ){\begin{bmatrix}A\cosh \left({\frac {s}{A}}\right)\cos \left(\phi \right)\\-A\cosh \left({\frac {s}{A}}\right)\sin \left(\phi \right)\\s\\\end{bmatrix}}+\sin(\alpha ){\begin{bmatrix}A\sinh \left({\frac {s}{A}}\right)\sin \left(\phi \right)\\A\sinh \left({\frac {s}{A}}\right)\cos \left(\phi \right)\\A\phi \\\end{bmatrix}}}
+  
+
+At the extremes, the surface is a catenoid 
+  
+    
+      
+        (
+        α
+        =
+        0
+        )
+      
+    
+    {\displaystyle (\alpha =0)}
+  
+ or a helicoid 
+  
+    
+      
+        (
+        α
+        =
+        π
+        
+          /
+        
+        2
+        )
+      
+    
+    {\displaystyle (\alpha =\pi /2)}
+  
+. Otherwise, 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ represents a mixing angle. The resulting surface, with domain chosen to prevent self-intersection, is a catenary rotated around the 
+  
+    
+      
+        
+          
+            X
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \mathbf {X} _{3}}
+  
+ axis in a helical fashion.
+
+Lines of curvature
+One can rewrite each element of second fundamental matrix as a function of 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+ and 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+  
+, for example
+
+  
+    
+      
+        
+          
+            X
+            
+              u
+              u
+            
+          
+        
+        ⋅
+        
+          
+            
+              n
+              ^
+            
+          
+        
+        =
+        
+          
+            1
+            
+              
+                |
+              
+              g
+              
+                
+                  |
+                
+                
+                  2
+                
+              
+              +
+              1
+            
+          
+        
+        
+          
+            [
+            
+              
+                
+                  Re
+                  ⁡
+                  
+                    (
+                    
+                      (
+                      1
+                      −
+                      
+                        g
+                        
+                          2
+                        
+                      
+                      )
+                      
+                        f
+                        ′
+                      
+                      −
+                      2
+                      g
+                      f
+                      
+                        g
+                        ′
+                      
+                    
+                    )
+                  
+                
+              
+              
+                
+                  Re
+                  ⁡
+                  
+                    (
+                    
+                      (
+                      1
+                      +
+                      
+                        g
+                        
+                          2
+                        
+                      
+                      )
+                      
+                        f
+                        ′
+                      
+                      i
+                      +
+                      2
+                      g
+                      f
+                      
+                        g
+                        ′
+                      
+                      i
+                    
+                    )
+                  
+                
+              
+              
+                
+                  Re
+                  ⁡
+                  
+                    (
+                    
+                      2
+                      g
+                      
+                        f
+                        ′
+                      
+                      +
+                      2
+                      f
+                      
+                        g
+                        ′
+                      
+                    
+                    )
+                  
+                
+              
+            
+            ]
+          
+        
+        ⋅
+        
+          
+            [
+            
+              
+                
+                  Re
+                  ⁡
+                  
+                    (
+                    
+                      2
+                      g
+                    
+                    )
+                  
+                
+              
+              
+                
+                  Re
+                  ⁡
+                  
+                    (
+                    
+                      −
+                      2
+                      g
+                      i
+                    
+                    )
+                  
+                
+              
+              
+                
+                  Re
+                  ⁡
+                  
+                    (
+                    
+                      
+                        |
+                      
+                      g
+                      
+                        
+                          |
+                        
+                        
+                          2
+                        
+                      
+                      −
+                      1
+                    
+                    )
+                  
+                
+              
+            
+            ]
+          
+        
+        =
+        −
+        2
+        Re
+        ⁡
+        (
+        f
+        
+          g
+          ′
+        
+        )
+      
+    
+    {\textstyle \mathbf {X_{uu}} \cdot \mathbf {\hat {n}} ={\frac {1}{|g|^{2}+1}}{\begin{bmatrix}\operatorname {Re} \left((1-g^{2})f'-2gfg'\right)\\\operatorname {Re} \left((1+g^{2})f'i+2gfg'i\right)\\\operatorname {Re} \left(2gf'+2fg'\right)\\\end{bmatrix}}\cdot {\begin{bmatrix}\operatorname {Re} \left(2g\right)\\\operatorname {Re} \left(-2gi\right)\\\operatorname {Re} \left(|g|^{2}-1\right)\\\end{bmatrix}}=-2\operatorname {Re} (fg')}
+  
+
+And consequently the second fundamental form matrix can be simplified as
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  −
+                  Re
+                  ⁡
+                  f
+                  
+                    g
+                    ′
+                  
+                
+                
+                  
+                  
+                  Im
+                  ⁡
+                  f
+                  
+                    g
+                    ′
+                  
+                
+              
+              
+                
+                  Im
+                  ⁡
+                  f
+                  
+                    g
+                    ′
+                  
+                
+                
+                  
+                  
+                  Re
+                  ⁡
+                  f
+                  
+                    g
+                    ′
+                  
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle {\begin{bmatrix}-\operatorname {Re} fg'&\;\;\operatorname {Im} fg'\\\operatorname {Im} fg'&\;\;\operatorname {Re} fg'\end{bmatrix}}}
+  
+
+One of its eigenvectors is 
+  
+    
+      
+        
+          
+            
+              f
+              
+                g
+                ′
+              
+            
+            ¯
+          
+        
+      
+    
+    {\displaystyle {\overline {\sqrt {fg'}}}}
+  
+ which represents the principal direction in the complex domain. Therefore, the two principal directions in the 
+  
+    
+      
+        u
+        v
+      
+    
+    {\displaystyle uv}
+  
+ space turn out to be 
+
+  
+    
+      
+        ϕ
+        =
+        −
+        
+          
+            1
+            2
+          
+        
+        Arg
+        ⁡
+        (
+        f
+        
+          g
+          ′
+        
+        )
+        ±
+        k
+        π
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle \phi =-{\frac {1}{2}}\operatorname {Arg} (fg')\pm k\pi /2}
+
+See also
+Associate family
+Bryant surface, found by an analogous parameterization in hyperbolic space
+
+
+== References ==

@@ -1,0 +1,12 @@
+The International Symposium on Physical Design (ISPD) is a yearly conference on the topic of electronic design automation, concentrating on algorithms for the physical design of integrated circuits.  It is typically held in April of each year, in a city in the western United States.  It is sponsored by the SIGDA of the Association for Computing Machinery and the IEEE Council on Electronic Design Automation (CEDA).
+ISPD is purely a technical conference with no associated trade show.
+
+See also
+Design Automation Conference
+International Conference on Computer-Aided Design
+Asia and South Pacific Design Automation Conference
+Design Automation and Test in Europe
+
+References
+External links
+Main web page for the ISPD conference

@@ -1,0 +1,9 @@
+A citation cartel is a group of academic authors who collude to egregiously cite one another's publications in order to increase their citation counts. In many cases the cited works have no strong relevance to the works they are cited in. 
+Alleged citation cartels have been found in numerous academic fields, including mathematics, medicine and dentistry. Possible citation cartels can be detected by network analysis of the citation graph.
+
+See also
+Clique
+Coercive citation
+
+
+== References ==

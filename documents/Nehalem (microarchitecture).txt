@@ -1,0 +1,48 @@
+Nehalem  is the codename for Intel's 45 nm microarchitecture released in November 2008. It was used in the first generation of the Intel Core i5 and i7 processors, and succeeds the older Core microarchitecture used on Core 2 processors. The term "Nehalem" comes from the Nehalem River.
+Nehalem is built on the 45 nm process, is able to run at higher clock speeds without sacrificing efficiency, and is more energy-efficient than Penryn microprocessors. Hyper-threading is reintroduced, along with a reduction in L2 cache size, as well as an enlarged L3 cache that is shared among all cores. Nehalem is an architecture that differs radically from NetBurst, while retaining some of the latter's minor features.
+Nehalem later received a die-shrink to 32 nm with Westmere, and was fully succeeded by "second-generation" Sandy Bridge in January 2011.
+
+Technology
+Cache line block on L2/L3 cache was reduced from 128 bytes in NetBurst & Merom/Penryn to 64 bytes per line in this generation (same size as Yonah and Pentium M).
+Hyper-threading reintroduced.
+Intel Turbo Boost 1.0.
+2–24 MiB L3 cache with Smart Cache in some models.
+Instruction Fetch Unit (IFU) containing second-level branch predictor with two level Branch Target Buffer (BTB) and Return Stack Buffer (RSB). Nehalem also supports all predictor types previously used in Intel's processors like Indirect Predictor and Loop Detector.
+sTLB (second level unified translation lookaside buffer) (i.e. both instructions and data) that contains 512 entries for small pages only, and is again 4 way associative.
+3 integer ALU, 2 vector ALU and 2 AGU per core.
+Native (all processor cores on a single die) quad- , hex-, and octa-core processors
+Intel QuickPath Interconnect in HEDT, server, and workstation models and Direct Media Interface on other models replacing the legacy front side bus.
+64 KB L1 cache per core (32 KB L1 data and 32 KB L1 instruction), and 256 KB L2 cache per core.
+Integration of PCI Express and DMI into the processor in mid-range models, replacing the northbridge.
+Integrated memory controller supporting two or three memory channels of DDR3 SDRAM or four FB-DIMM2 channels.
+Second-generation Intel Virtualization Technology, which introduced Extended Page Table support, virtual processor identifiers (VPIDs), and non-maskable interrupt-window exiting.
+SSE4.2 and POPCNT instructions.
+Macro-op fusion now works in 64-bit mode.
+20 to 24 pipeline stages.
+
+Performance and power improvements
+It has been reported that Nehalem has a focus on performance, thus the increased core size.
+Compared to Penryn, Nehalem has:
+
+10–25% better single-threaded performance / 20–100% better multithreaded performance at the same power level
+30% lower power consumption for the same performance
+On average, Nehalem provides a 15–20% clock-for-clock increase in performance per core.
+Overclocking is possible with Bloomfield processors and the X58 chipset. Lynnfield processors use a PCH removing the need for a northbridge.
+Nehalem processors incorporate SSE4.2 SIMD instructions, adding seven new instructions to the SSE 4.1 set in the Core 2 series. The Nehalem architecture reduces atomic operation latency by 50% in an attempt to eliminate overhead on atomic operations such as the LOCK CMPXCHG compare-and-swap instruction.
+
+Variants
+Lynnfield processors feature 16 PCIe lanes, which can be used in 1x16 or 2x8 configuration.
+1 6500 series scalable up to 2 sockets, 7500 series scalable up to 4/8 sockets.
+
+Server, workstation, and desktop processors
+Intel states the Gainestown processors have six memory channels. Gainestown processors have dual QPI links and have a separate set of memory registers for each link in effect, a multiplexed six-channel system.
+
+Mobile processors
+See also
+List of Intel CPU microarchitectures
+Tick–tock model
+
+References
+Further reading
+External links
+Nehalem processor at Intel.com

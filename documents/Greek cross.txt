@@ -1,0 +1,52 @@
+The Christian cross, with or without a figure of Christ included, is the main religious symbol of Christianity. A cross with a figure of Christ affixed to it is termed a crucifix and the figure is often referred to as the corpus (Latin for "body").
+The term Greek cross designates a cross with arms of equal length, as in a plus sign, while the Latin cross designates a cross with an elongated descending arm. Numerous other variants have been developed during the medieval period.
+Christian crosses are used widely in churches, on top of church buildings, on bibles, in heraldry, in personal jewelry, on hilltops, and elsewhere as an attestation or other symbol of Christianity.
+Crosses are a prominent feature of Christian cemeteries, either carved on gravestones or as sculpted stelae. Because of this, planting small crosses is sometimes used in countries of Christian culture to mark the site of fatal accidents, or, such as the Zugspitze or Mount Royal, so as to be visible over the entire surrounding area.
+Catholic, Anglican and Lutheran depictions of the cross are often crucifixes, in order to emphasize that it is Jesus that is important, rather than the cross in isolation. Large crucifixes are a prominent feature of some Lutheran churches, e.g. as a rood.  However, some other Protestant traditions depict the cross without the corpus, interpreting this form as an indication of belief in the resurrection rather than as representing the interval between the death and the resurrection of Jesus.
+Several Christian cross variants are available in computer-displayed text. A Latin cross ("†") is included in the extended ASCII character set, and several variants have been added to Unicode, starting with the Latin cross in version 1.1. For others, see Religious and political symbols in Unicode.
+
+Basic forms
+Basic variants, or early variants widespread since antiquity.
+A total number of 15 variants.
+
+Saints' crosses
+Denominational or regional variants
+Non-denominational symbols
+Modern innovations
+Crosses of Orders
+Types of artifacts
+Unicode
+For use in documents made using a computer, there are Unicode code-points for multiple types of Christian crosses.
+
+U+16ED ᛭ RUNIC CROSS PUNCTUATION
+U+205C ⁜ DOTTED CROSS
+U+2626 ☦ ORTHODOX CROSS
+U+2627 ☧ CHI RHO
+U+2628 ☨ CROSS OF LORRAINE
+U+2629 ☩ CROSS OF JERUSALEM
+U+2670 ♰ WEST SYRIAC CROSS
+U+2671 ♱ EAST SYRIAC CROSS
+U+2719 ✙ OUTLINED GREEK CROSS
+U+271A ✚ HEAVY GREEK CROSS
+U+271B ✛ OPEN CENTRE CROSS
+U+271C ✜ HEAVY OPEN CENTRE CROSS
+U+271D ✝ LATIN CROSS
+U+271E ✞ SHADOWED WHITE LATIN CROSS
+U+271F ✟ OUTLINED LATIN CROSS
+U+2720 ✠ MALTESE CROSS
+U+01F548 🕈 CELTIC CROSS
+There are code points for other crosses in the block Miscellaneous Symbols and Pictographs, mainly variants of the Greek cross, but their usage may be limited by availability of a computer font that can display them.
+
+See also
+
+Christian Cross
+Crosses in heraldry
+Christian symbolism
+Saint symbolism
+Nordic cross flag
+Crucifixion in the arts
+Cultural, political, and religious symbols in Unicode
+Cross
+
+
+== References ==

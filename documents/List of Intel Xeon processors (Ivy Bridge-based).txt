@@ -1,0 +1,40 @@
+This is a list of Ivy Bridge-based Intel Xeon processors.
+
+"Gladden" (22 nm)
+All models support: MMX, Streaming SIMD Extensions (SSE), SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, Advanced Vector Extensions (AVX), Enhanced Intel SpeedStep Technology (EIST), Intel 64, XD bit (an NX bit implementation), Trusted Execution Technology (TXT), Intel VT-x, Intel EPT, Intel VT-d, Hyper-threading, AES-NI.
+All models support uni-processor configurations only.
+Die size: 160 mm2
+Steppings: E1
+
+Xeon E3-11xx v2 (uniprocessor)
+"Ivy Bridge" (22 nm)
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, F16C, Enhanced Intel SpeedStep Technology (EIST), Intel 64, XD bit (an NX bit implementation), TXT, Intel VT-x, Intel EPT, Intel VT-d, Hyper-threading (except E3-1220 v2 and E3-1225 v2), Turbo Boost, AES-NI, Smart Cache, ECC
+Transistors: E1: 1.4 billion
+Die size: E1: 160 mm2
+All models support uni-processor configurations only.
+Intel HD Graphics P4000 uses drivers that are optimized and certified for professional applications, similar to nVidia Quadro and AMD FirePro products.
+
+Xeon E3-12xx v2 (uniprocessor)
+"Ivy Bridge-EN" (22 nm) Entry
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, F16C, Enhanced Intel SpeedStep Technology (EIST), Intel 64, XD bit (an NX bit implementation), TXT, Intel VT-x, Intel EPT, Intel VT-d, Intel VT-c, Intel x8 SDDC, Hyper-threading (except E5-2403 v2 and E5-2407 v2), Turbo Boost (except E5-2403 v2, E5-2407 v2 and E5-2418L v2), AES-NI, Smart Cache.
+Support for up to six DIMMs of DDR3 memory per CPU socket.
+
+Xeon E5-14xx v2 (uniprocessor)
+Xeon E5-24xx v2 (dual-processor)
+"Ivy Bridge-EP" (22 nm) Efficient Performance
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, F16C, Enhanced Intel SpeedStep Technology (EIST), Intel 64, XD bit (an NX bit implementation), TXT, Intel VT-x, Intel EPT, Intel VT-d, Intel VT-c, Intel x8 SDDC, Hyper-threading (except E5-1607 v2, E5-2603 v2, E5-2609 v2 and E5-4627 v2), Turbo Boost (except E5-1607 v2, E5-2603 v2, E5-2609 v2, E5-2618L v2, E5-4603 v2 and E5-4607 v2), AES-NI, Smart Cache.
+Support for up to 12 DIMMs of DDR3 memory per CPU socket.
+
+Xeon E5-16xx v2 (uniprocessor)
+Xeon E5-26xx v2 (dual-processor)
+Xeon E5-46xx v2 (quad-processor)
+"Ivy Bridge-EX" (22 nm) Expandable
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, F16C, Enhanced Intel SpeedStep Technology (EIST), Intel 64, XD bit (an NX bit implementation), TXT, Intel VT-x, Intel EPT, Intel VT-d, Intel VT-c, Intel x8 SDDC, Hyper-threading (except E7-8857 v2), Turbo Boost (except E7-4809 v2), AES-NI, Smart Cache.
+Support for up to 24 DIMMs of DDR3 memory per CPU socket.
+
+Xeon E7-28xx v2 (dual-processor)
+Xeon E7-48xx v2 (quad-processor)
+Xeon E7-88xx v2 (octa-processor)
+
+
+== References ==

@@ -1,0 +1,13 @@
+The Shooting Star is a quadcopter drone designed for light shows by Intel. It is constructed of polystyrene and lightweight plastics; and it has built-in light-emitting diodes (LEDs) for display purposes. Large numbers of Shooting Star drones can be controlled by a single computer and operator that can create more than four billion color combinations from the built-in LEDs, with the system's algorithms controlling the choreography and optimizing the flight paths. In 2022, Intel sold the division to Nova Sky Stories.
+
+Use
+In November 2016, 500 of the drones were used in a light show to set the new Guinness World Record for the "Most Unmanned Aerial Vehicles (UAVs) airborne simultaneously".
+The drones were used for the Super Bowl LI halftime show performance by Lady Gaga in 2017, in which 300 Shooting Stars formed an American flag in the sky. Because of the tight regulations during the show and establishment of a no-drone flight zone, the drone show was recorded beforehand.
+Josh Walden of Intel's New Technologies Group stated that one possible application of the technology is to use large numbers of drones to perform a visual inspection much more quickly than a single unit.
+During Art Basel Miami Beach 2017 Intel worked together with Studio Drift and BMW with a performative artwork with a flying swarm of 300 drones
+1,218 of these drones were used for the 2018 Winter Olympics opening ceremony, which became the largest drone show in the history of the world.
+
+References
+External links
+Intel website on Shooting Star light shows
+Nova Sky Stories

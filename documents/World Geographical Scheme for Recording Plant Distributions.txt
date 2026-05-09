@@ -1,0 +1,79 @@
+The World Geographical Scheme for Recording Plant Distributions (WGSRPD) is a biogeographical system developed by the international Biodiversity Information Standards (TDWG) organization, formerly the International Working Group on Taxonomic Databases. The WGSRPD standards, like other standards for data fields in botanical databases, were developed to promote "the wider and more effective dissemination of information about the world's heritage of biological organisms for the benefit of the world at large". The system provides clear definitions and codes for recording plant distributions at four scales or levels, from "botanical continents" down to parts of large countries. The codes may be referred to as TDWG geographical codes. Current users of the system include the International Union for Conservation of Nature (IUCN), the Germplasm Resources Information Network (GRIN), and Plants of the World Online (POWO).
+
+Principles of organization
+The scheme is one of a number developed by Biodiversity Information Standards  particularly aimed at taxonomic databases. The starting point was the "need for an agreed system of geographical units at approximately 'country' level and upwards for use in recording plant distributions". The scheme represents a compromise between political and botanical divisions. All boundaries either follow a political boundary (country boundary, province boundary, etc.), or coastlines. The scheme also aims to follow botanical tradition, in terms of the distribution categories used in works like the Flora Europaea, Flora Malesiana, or Med-Checklist. This approach occasionally leads to departures from political boundaries. Thus the scheme follows Flora Europaea in placing the eastern Aegean islands (such as Lesbos, Samos and Rhodes) in the West Asia region, rather than in Europe where they belong politically as part of Greece.
+
+Levels
+The scheme defines geographic places at four scales or levels, from "botanical continents" down to parts of large countries:
+
+Continental – nine botanical continents
+Regional – each botanical continent is divided into between two and ten subcontinental regions
+Area or "botanical country" – most regions are subdivided into units generally equating to a political country, with some large islands and island groups considered single entities, and large countries may be split or outlying areas omitted.
+"Basic recording units" – the lowest level is only used for very large countries, subdividing them into states or provinces on purely political grounds
+Standardized codes are used to represent the units at each level. Numerical codes are used for Levels 1 and 2, alphabetic codes for Levels 3 and 4.
+
+Phytogeography
+For more botanically oriented classifications using phytogeography, the scheme's documentation endorses the use of floristic kingdoms, floristic regions, and floristic provinces, as classified by Armen Takhtajan.
+
+Level 1: botanical continents
+The WGSRPD defines nine botanical continents (Level 1), each assigned a single digit code from 1 (Europe) to 9 (Antarctica). Although it is said that "popular concepts of the continents of the world have been maintained, but with one or two slight modifications", some of the botanical continents are notably different from the traditional geographical continents. In particular, Asia is divided into two botanical continents; 5 Australasia consists only of Australia and New Zealand and small outlying islands; most of the islands in the Pacific Ocean are allocated to 6 Pacific; and the division of the Americas into 7 Northern America and 8 Southern America differs from the traditional North America and South America.
+
+1 Europe
+The botanical continent of Europe is defined broadly in line with Flora Europaea and with the traditional geographical definition. To the north-west it includes Iceland and Svalbard (Spitsbergen). The southern boundary with Africa encloses most of the Mediterranean islands. The eastern boundary places Crimea and European Russia in Europe, with the border defined by the administrative units. Novaya Zemlya is excluded from Europe. The south-eastern boundary excludes the Caucasus and Turkey east of the Bosporus, as well as the Eastern Aegean Islands and Cyprus, which although geopolitically part of Europe are considered floristically part of Western Asia.
+
+2 Africa
+The botanical continent of Africa corresponds closely to the usual geographical definition. It excludes the Sinai Peninsula, politically a part of Egypt, which is placed in region 34 Western Asia. To the west, it includes islands grouped as  Macaronesia, comprising the Azores, Madeira, the Canary Islands, the Savage Islands and the Cape Verde islands. To the east, it includes Madagascar and other Indian Ocean islands out as far as the island of Rodrigues.
+
+3 Asia-Temperate
+The geographical continent of Asia is divided into two botanical continents, 3 Asia-Temperate and 4 Asia-Tropical. The reason for the division was described as largely for convenience. Asia-Temperate borders Europe and Africa; the boundaries are described above. To the south-east, the Indian Subcontinent and the rest of Asia from region 41 Indo-China southwards are placed in Asia-Tropical.
+
+4 Asia-Tropical
+Asia-Tropical forms the second part of the traditional geographical continent of Asia. Its western and northern boundaries are formed by the two regions 40 Indian Subcontinent and 41 Indo-China. The southern boundary separates Asia-Tropical from Australia. The south-eastern boundary was changed between the first edition of 1992 and the second edition of 2001. In the first edition, Asia-Tropical was divided into three regions: 40 Indian Subcontinent, 41 Indo-China and 42 Malesia. The eastern boundary of Malesia was placed between the Bismarck Archipelago and the Solomon Islands Archipelago, which were put into region 60 Southwest Pacific. It was subsequently argued that it made more "floristic sense" to link the Solomon Islands with the Bismarck Archipelago and the island of New Guinea. Accordingly, in the second edition, a new region 43 Papuasia was created within Asia-Tropical, comprising New Guinea, Near Oceania (the Bismarck Archipelago and the Solomon Islands Archipelago), so that Asia-Tropical consists of four regions.
+
+5 Australasia
+The botanical continent of Australasia, as defined by the WGSRPD, consists only of Australia and New Zealand, plus outlying islands. The name was described as having been "controversial", since it has been used to describe larger areas. Other definitions may include Indonesia, New Guinea and many Pacific islands, which the WGSRPD divides between 4 Asia-Tropical and 6 Pacific.
+
+6 Pacific
+The WGSRPD groups most islands with a nearby continental landmass, usually the closest but may also make a decision influenced by the floristic similarity (hence the placement of the Azores with Africa and not Europe). The exception is the islands of the central part of the Pacific Ocean, which are placed in a separate botanical continent. The largest of these islands include New Caledonia, Fiji and Hawaii.
+
+7 Northern America
+The WGSRPD divides the Americas into 7 Northern America and 8 Southern America rather than into the traditional continents of North America and South America. The boundary between Northern America and Southern America was changed from the first edition to the second edition. In the first edition, a south-eastern part of Mexico was included in Southern America, the rest of Mexico being placed in Northern America. This followed the boundary of Mesoamerica in Flora Mesoamericana. However, it proved unpopular, especially with Mexican botanists, so in the second edition, all of Mexico is placed in Northern America, which thus consists of Mexico, the contiguous United States plus Alaska, Canada, and Greenland, together with associated offshore islands.
+
+8 Southern America
+As noted above, the Americas are divided into 7 Northern America and 8 Southern America rather than into the traditional continents of North America and South America, with the precise boundary between the two having changed between the first and second editions of the WGSRPD. Southern America consists of the Caribbean, the WGSRPD definition of Central America (those countries south of Mexico and north of Colombia), and the traditional geographical continent of South America, together with some offshore islands, such as the Galapagos.
+
+9 Antarctic
+The Antarctic botanical continent consists of continental Antarctica, plus a number of Subantarctic Islands, including the Falkland Islands, South Georgia and Tristan da Cunha.
+
+Level 2: subcontinental regions
+The nine botanical continents (Level 1) are each divided into between two and ten Level 2 regions; see the table above. Each region is given a two digit code, the first digit being that of the Level 1 continent to which it belongs. Altogether, there are 52 regions.
+Many of the regions are geographical divisions of the continents, e.g. 12 Southwestern Europe, 34 Western Asia or 77 South-Central U.S.A. Others are whole countries within the continents, e.g. 36 China, 79 Mexico or 84 Brazil. Some less well-known regions include:
+
+21 Macaronesia, consisting of the Azores, the Canary Islands, and Madeira, plus associated smaller islands
+38 Eastern Asia, consisting of Japan, Korea, and Taiwan, plus associated smaller islands – the usual geographical unit East Asia is much larger
+42 Malesia, consisting of Peninsular Malaysia, Singapore, Borneo, Sumatra, Java, and the Philippines, plus associated smaller islands
+43 Papuasia, consisting of the island of New Guinea, the Bismarck Archipelago and the Solomon Islands
+
+Levels 3 and 4: areas and basic recording units
+Levels 3 and 4 are identified by letter codes. Three letter codes are used for Level 3; e.g. "NWG" stands for New Guinea. Where the Level 3 area is subdivided into Level 4 "basic recording units", a two letter code is appended; thus "NWG-IJ" represents Irian Jaya, the Indonesian part of New Guinea. Where the Level 3 area is not subdivided, "OO" may be added to create a five letter code to show that the Level 4 unit is identical to the Level 3 area. Thus "BIS" represents the Bismarck Archipelago at Level 3. This area is not subdivided, so "BIS-OO" can be used to represent it at Level 4. As an example, the complete division of the Level 2 Papuasia region is shown below.
+
+Usage
+Organizations and works using the scheme include the International Union for Conservation of Nature (IUCN), the Germplasm Resources Information Network (GRIN), and the World Checklist of Vascular Plants, which supports Plants of the World Online, published by Kew.
+Thus in the GRIN Taxonomy for Plants database, the distribution of Magnolia grandiflora is given in terms of WGSRPD botanical continents and regions as:
+
+"Northern America
+Southeastern U.S.A.
+South-Central U.S.A."
+Below the Level 2 regions, the Level 3 areas in this case are US states, which are then listed.
+
+See also
+International Union of Biological Sciences
+Phytochorion
+Wikipedia categories for flora distributions using the World Geographical Scheme for Recording Plant Distributions
+
+Notes
+References
+Citations
+Sources
+
+World Geographical Scheme for Recording Plant Distributions (WGSRPD) on Github

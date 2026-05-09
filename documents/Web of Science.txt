@@ -1,0 +1,66 @@
+The Web of Science (WoS; previously known as Web of Knowledge) is a paid-access platform that provides (typically via the internet) access to multiple databases that provide reference and citation data from academic journals, conference proceedings, and other documents in various academic disciplines. 
+Until 1997, it was originally produced by the Institute for Scientific Information. It is currently owned by Clarivate. 
+Web of Science currently contains 79 million records in the core collection and 171 million records on the platform.
+
+History
+A citation index is built on the fact that citations in science serve as linkages between similar research items, and lead to matching or related scientific literature, such as journal articles, conference proceedings, abstracts, etc. In addition, literature that shows the greatest impact in a particular field, or more than one discipline, can be located through a citation index. For example, a paper's influence can be determined by linking to all the papers that have cited it. In this way, current trends, patterns, and emerging fields of research can be assessed. Eugene Garfield, the "father of citation indexing of academic literature", who launched the Science Citation Index, which in turn led to the Web of Science, wrote:
+
+Citations are the formal, explicit linkages between papers that have particular points in common. A citation index is built around these linkages. It lists publications that have been cited and identifies the sources of the citations. Anyone conducting a literature search can find from one to dozens of additional papers on a subject just by knowing one that has been cited. And every paper that is found provides a list of new citations with which to continue the search.
+The simplicity of citation indexing is one of its main strengths.
+
+Coverage
+Expanding the coverage of Web of Science, in November 2009 Thomson Reuters introduced Century of Social Sciences. This service contains files which trace social science research back to the beginning of the 20th century, and Web of Science now has indexing coverage from the year 1900 to the present. As of February 2017, the multidisciplinary coverage of the Web of Science encompasses: over a billion cited references, 90 million records, covering over 12 thousand high impact journals, and 8.2 million records across 160 thousand conference proceedings, with 15 thousand proceedings added each year. The selection is made on the basis of impact evaluations and comprise academic journals, spanning multiple academic disciplines. The coverage includes: the sciences, social sciences, the arts, and humanities, and goes across disciplines. However, Web of Science does not index all journals.
+There is a significant and positive correlation between the impact factor and CiteScore. However, an analysis by Elsevier, who created the journal evaluation metric CiteScore, has identified 216 journals from 70 publishers to be in the top 10 percent of the most-cited journals in their subject category based on the CiteScore while they did not have an impact factor. It appears that the impact factor does not provide comprehensive and unbiased coverage of high-quality journals. Similar results can be observed by comparing the impact factor with the SCImago Journal Rank.
+Furthermore, as of September 2014, the total file count of the Web of Science was over 90 million records, which included over 800 million cited references, covering 5.3 thousand social science publications in 55 disciplines.
+Titles of foreign-language publications are translated into English and so cannot be found by searches in the original language.
+In 2018, the Web of Science started embedding partial information about the open access status of works, using Unpaywall data.
+While marketed as a global point of reference, Scopus and WoS have been characterised as "structurally biased against research produced in non-Western countries, non-English language research, and research from the arts, humanities, and social sciences".
+After the 2022 Russian invasion of Ukraine, on March 11, 2022, Clarivate – which owns Web of Science – announced that it would cease all commercial activity in Russia and immediately close an office there.
+
+Citation databases
+The Web of Science Core Collection consists of six online indexing databases:
+
+Science Citation Index Expanded (SCIE), previously entitled Science Citation Index, covers more than 9,200 journals across 178 scientific disciplines. Coverage is from 1900 to present day, with over 53 million records
+Social Sciences Citation Index (SSCI) covers more than 3,400 journals in the social sciences. Coverage is from 1900 to present, with over 9.3 million records
+Arts & Humanities Citation Index (AHCI) covers more than 1,800 journals in the arts and humanities. Coverage is from 1975 to present, with over 4.9 million records
+Emerging Sources Citation Index (ESCI) covers more than 7,800 journals in all disciplines. Coverage is from 2005 to present, with over 3 million records
+Book Citation Index (BCI) covers more than 116,000 editorially selected books. Coverage is from 2005 to present, with over 53.2 million records
+Conference Proceedings Citation Index (CPCI) covers more than 205,000 conference proceedings. Coverage is from 1990 to present, with over 70.1 million records
+
+Regional databases
+Since 2008, the Web of Science hosts a number of regional citation indices: 
+
+Chinese Science Citation Database, produced in partnership with the Chinese Academy of Sciences, was the first indexing database in a language other than English
+SciELO Citation Index, established in 2013, covering Brazil, Spain, Portugal, the Caribbean and South Africa, and an additional 12 countries of Latin America
+Korea Citation Index in 2014, with updates from the National Research Foundation of Korea
+Russian Science Citation Index in 2015
+Arabic Regional Citation Index in 2020
+
+Contents
+The seven citation indices listed above contain references which have been cited by other articles. One may use them to undertake cited reference search, that is, locating articles that cite an earlier, or current publication. One may search citation databases by topic, by author, by source title, and by location. Two chemistry databases, Index Chemicus and  Current Chemical Reactions allow for the creation of structure drawings, thus enabling users to locate chemical compounds and reactions.
+
+Abstracting and indexing
+The following types of literature are indexed: scholarly books, peer reviewed journals, original research articles, reviews, editorials, chronologies, abstracts, as well as other items. Disciplines included in this index are  agriculture, biological sciences, engineering, medical and life sciences, physical and chemical sciences, anthropology, law, library sciences, architecture, dance, music, film, and theater. Seven citation databases encompasses coverage of the above disciplines.
+
+Other databases and products
+Among other WoS databases are BIOSIS and The Zoological Record, an electronic index of zoological literature that also serves as the unofficial register of scientific names in zoology.
+Clarivate owns and markets numerous other products that provide data and analytics, workflow tools, and professional services to researchers, universities, research institutions, and other organizations, such as:
+
+InCites
+Journal Citation Reports
+Essential Science Indicators
+ScholarOne
+Converis
+
+Limitations in the use of citation analysis
+As with other scientific approaches, scientometrics and bibliometrics have their own limitations. In 2010, a criticism was voiced pointing toward certain deficiencies of the journal impact factor calculation process, based on Thomson Reuters Web of Science, such as: journal citation distributions usually are highly skewed towards established journals; journal impact factor properties are field-specific and can be easily manipulated by editors, or even by changing the editorial policies; this makes the entire process essentially non-transparent.
+Regarding the more objective journal metrics, there is a growing view that for greater accuracy it must be supplemented with article-level metrics and peer-review. Studies of methodological quality and reliability have found that "reliability of published research works in several fields may be decreasing with increasing journal rank". Thomson Reuters replied to criticism in general terms by stating that "no one metric can fully capture the complex contributions scholars make to their disciplines, and many forms of scholarly achievement should be considered."
+
+Journal Citation Reports
+See also
+References
+External links
+Official website
+
+Further reading
+Cantú-Ortiz, Francisco Javier, ed. (2017-10-25). "2. Web of Science: The First Citation Index for Data Analytics and Scientometrics". Research Analytics: Boosting University Productivity and Competitiveness through Scientometrics (1st ed.). New York City: CRC Press. pp. 15–30. doi:10.1201/9781315155890. ISBN 978-1-315-15589-0.

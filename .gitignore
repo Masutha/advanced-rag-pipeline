@@ -1,0 +1,12 @@
+chroma_db/
+__pycache__/
+.ipynb_checkpoints/
+rag_env/
+venv/
+.env
+*.log
+*.pyc
+documents/__MACOSX/
+documents/__MACOSX/**
+RAG_Pipeline_Complete_Story_backup.ipynb
+Report.pdf

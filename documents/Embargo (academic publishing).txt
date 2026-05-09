@@ -1,0 +1,32 @@
+In academic publishing, an embargo is a period during which access to academic journals is not allowed to users who have not paid for access (or have access through their institution). The purpose of this is to ensure publishers have revenue to support their activities, although the impact of embargoes on publishers is hotly debated, with some studies finding no impact while publisher experience suggests otherwise. A 2012 survey of libraries by the Association of Learned, Professional, and Society Publishers on the likelihood of journal cancellations in cases where most of the content was made freely accessible after six months suggests there would be a major negative impact on subscriptions, but this result has been debated.
+Various types exist: 
+
+A 'moving wall' is a fixed period of months or years.
+A fixed date is a particular time point that does not change.
+A current year (or other period) is setting a time point on Jan. 1 of the current year, so that all material earlier than that is available. Although fixed during the year, it will change each year.
+
+Purpose
+There are various purposes:
+
+For delayed open access journals, the embargo separates the most recent period, for which a subscription is needed, from an older period, where a subscription is not needed and anyone may access the article. This can range from a few months to several years.
+For self-archiving, the embargo is a period of time set by the publisher in the copyright transfer agreement where access to the archived version of the article in a digital repository is restricted until the embargo period expires. Typical embargo periods range from 6 to 24 months, though some publishers may require an embargo of up to 48 months.
+In full-text databases, such as those of EBSCO Publishing or ProQuest, it separates the most recent period, where only a title or abstract is available, from an older one, which is openly accessible.
+
+Moving wall
+In academic publishing, a moving wall is the time period between the last issue of an academic journal available in a given online database and the most recently published print issue of a journal. It is specified by publishers in their license agreements with databases (like JSTOR), and generally ranges from several months to several years.
+
+Sustainability of embargo periods
+Currently used embargo times (often 6–12 months in STEM and over 12 months in social sciences and humanities), however, do not seem to be based on empirical evidence on the effect of embargoes on journal subscriptions. In 2013 the UK House of Commons Select Committee on Business, Innovation and Skills already concluded that "there is no available evidence base to indicate that short or even zero embargoes cause cancellation of subscriptions".
+There are some data available on the median "usage half life" (the median time it takes for scholarly articles to reach half of their total downloads) and the difference therein across disciplines, but this in itself does not prove that embargo length will affect subscriptions.
+The argument that immediate self-archiving risks subscription revenue is seen as ironic where archiving of postprints is concerned. If the value publishers add to the publication process beyond peer review (e.g. in typesetting, dissemination and archiving) were worth the price asked, people would still be willing to pay for the journal even if the unformatted postprint is available elsewhere. An embargo can be seen as a statement that in fact the prices levied for individual articles through subscriptions, are not commensurate with the value added to a publication beyond organizing the peer review process.
+Publishers have, in the past, lifted embargo periods for specific research topics in times of humanitarian crises, or have been asked to do so (e.g. outbreaks of Zika and Ebola). While considered commendable in itself by scholars, this is seen as an implicit acknowledgement that embargoes stifle the progress of science and the potential application of scientific research; particularly when it comes to life-threatening pandemics. While arguably, not all research is potentially critical for saving lives, it is hard to imagine a discipline where fellow researchers and societal partners would not benefit from un-embargoed access to research findings.
+Evidence suggests that traditional journals can peacefully coexist with zero-embargo self-archiving policies, and the relative benefits to both publishers and authors via increased dissemination and citations outweigh any putative negative impacts. For publishers, the fact that most preprint repositories encourage authors to link to or upload the published version of record (VOR) is effectively free marketing for the respective journal and publisher.
+Plan S has zero-length embargoes on self-archiving as one of its key principles. Where publishers have already implemented such policies, such as the Royal Society, Sage, and Emerald, there has been no documented impact on their finances so far. In a reaction to Plan S, Highwire suggested that three of their society publishers make all author manuscripts freely available upon submission and state that they do not believe this practice has contributed to subscription decline. Therefore there is little evidence or justification supporting the need for embargo periods.
+
+See also
+Copyright policies of academic publishers
+
+Notes
+
+
+== References ==

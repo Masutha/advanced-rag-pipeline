@@ -1,0 +1,4244 @@
+In mathematics, bilinear interpolation is a method for interpolating functions of two variables (e.g., x and y) using repeated linear interpolation. It is usually applied to functions sampled on a 2D rectilinear grid, though it can be generalized to functions defined on the vertices of (a mesh of) arbitrary convex quadrilaterals.
+Bilinear interpolation is performed using linear interpolation first in one direction, and then again in another direction. Although each step is linear in the sampled values and in the position, the interpolation as a whole is not linear but rather quadratic in the sample location.
+Bilinear interpolation is one of the basic resampling techniques in computer vision and image processing, where it is also called bilinear filtering or bilinear texture mapping.
+
+Computation
+Suppose that we want to find the value of the unknown function f at the point (x, y). It is assumed that we know the value of f at the four points Q11 = (x1, y1), Q12 = (x1, y2), Q21 = (x2, y1), and Q22 = (x2, y2).
+
+Repeated linear interpolation
+We first do linear interpolation in the x-direction. This yields
+
+  
+    
+      
+        
+          
+            
+              
+                f
+                (
+                x
+                ,
+                
+                  y
+                  
+                    1
+                  
+                
+                )
+                =
+                
+                  
+                    
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      −
+                      x
+                    
+                    
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        x
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                f
+                (
+                
+                  Q
+                  
+                    11
+                  
+                
+                )
+                +
+                
+                  
+                    
+                      x
+                      −
+                      
+                        x
+                        
+                          1
+                        
+                      
+                    
+                    
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        x
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                f
+                (
+                
+                  Q
+                  
+                    21
+                  
+                
+                )
+                ,
+              
+            
+            
+              
+                f
+                (
+                x
+                ,
+                
+                  y
+                  
+                    2
+                  
+                
+                )
+                =
+                
+                  
+                    
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      −
+                      x
+                    
+                    
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        x
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                f
+                (
+                
+                  Q
+                  
+                    12
+                  
+                
+                )
+                +
+                
+                  
+                    
+                      x
+                      −
+                      
+                        x
+                        
+                          1
+                        
+                      
+                    
+                    
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        x
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                f
+                (
+                
+                  Q
+                  
+                    22
+                  
+                
+                )
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}f(x,y_{1})={\frac {x_{2}-x}{x_{2}-x_{1}}}f(Q_{11})+{\frac {x-x_{1}}{x_{2}-x_{1}}}f(Q_{21}),\\f(x,y_{2})={\frac {x_{2}-x}{x_{2}-x_{1}}}f(Q_{12})+{\frac {x-x_{1}}{x_{2}-x_{1}}}f(Q_{22}).\end{aligned}}}
+  
+
+We proceed by interpolating in the y-direction to obtain the desired estimate:
+
+  
+    
+      
+        
+          
+            
+              
+                f
+                (
+                x
+                ,
+                y
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        y
+                        
+                          2
+                        
+                      
+                      −
+                      y
+                    
+                    
+                      
+                        y
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        y
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                f
+                (
+                x
+                ,
+                
+                  y
+                  
+                    1
+                  
+                
+                )
+                +
+                
+                  
+                    
+                      y
+                      −
+                      
+                        y
+                        
+                          1
+                        
+                      
+                    
+                    
+                      
+                        y
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        y
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                f
+                (
+                x
+                ,
+                
+                  y
+                  
+                    2
+                  
+                
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        y
+                        
+                          2
+                        
+                      
+                      −
+                      y
+                    
+                    
+                      
+                        y
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        y
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                
+                  (
+                  
+                    
+                      
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          −
+                          x
+                        
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          −
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                      
+                    
+                    f
+                    (
+                    
+                      Q
+                      
+                        11
+                      
+                    
+                    )
+                    +
+                    
+                      
+                        
+                          x
+                          −
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          −
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                      
+                    
+                    f
+                    (
+                    
+                      Q
+                      
+                        21
+                      
+                    
+                    )
+                  
+                  )
+                
+                +
+                
+                  
+                    
+                      y
+                      −
+                      
+                        y
+                        
+                          1
+                        
+                      
+                    
+                    
+                      
+                        y
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        y
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                
+                  (
+                  
+                    
+                      
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          −
+                          x
+                        
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          −
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                      
+                    
+                    f
+                    (
+                    
+                      Q
+                      
+                        12
+                      
+                    
+                    )
+                    +
+                    
+                      
+                        
+                          x
+                          −
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          −
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                      
+                    
+                    f
+                    (
+                    
+                      Q
+                      
+                        22
+                      
+                    
+                    )
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                  
+                    
+                      
+                        =
+                        
+                          
+                            1
+                            
+                              (
+                              
+                                x
+                                
+                                  2
+                                
+                              
+                              −
+                              
+                                x
+                                
+                                  1
+                                
+                              
+                              )
+                              (
+                              
+                                y
+                                
+                                  2
+                                
+                              
+                              −
+                              
+                                y
+                                
+                                  1
+                                
+                              
+                              )
+                            
+                          
+                        
+                        (
+                      
+                      
+                        f
+                        (
+                        
+                          Q
+                          
+                            11
+                          
+                        
+                        )
+                        (
+                        
+                          x
+                          
+                            2
+                          
+                        
+                        −
+                        x
+                        )
+                        (
+                        
+                          y
+                          
+                            2
+                          
+                        
+                        −
+                        y
+                        )
+                        +
+                        f
+                        (
+                        
+                          Q
+                          
+                            12
+                          
+                        
+                        )
+                        (
+                        
+                          x
+                          
+                            2
+                          
+                        
+                        −
+                        x
+                        )
+                        (
+                        y
+                        −
+                        
+                          y
+                          
+                            1
+                          
+                        
+                        )
+                      
+                    
+                    
+                      
+                      
+                        
+                        +
+                        f
+                        (
+                        
+                          Q
+                          
+                            21
+                          
+                        
+                        )
+                        (
+                        x
+                        −
+                        
+                          x
+                          
+                            1
+                          
+                        
+                        )
+                        (
+                        
+                          y
+                          
+                            2
+                          
+                        
+                        −
+                        y
+                        )
+                        +
+                        f
+                        (
+                        
+                          Q
+                          
+                            22
+                          
+                        
+                        )
+                        (
+                        x
+                        −
+                        
+                          x
+                          
+                            1
+                          
+                        
+                        )
+                        (
+                        y
+                        −
+                        
+                          y
+                          
+                            1
+                          
+                        
+                        )
+                        )
+                      
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    1
+                    
+                      (
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        x
+                        
+                          1
+                        
+                      
+                      )
+                      (
+                      
+                        y
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        y
+                        
+                          1
+                        
+                      
+                      )
+                    
+                  
+                
+                
+                  
+                    [
+                    
+                      
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          −
+                          x
+                        
+                        
+                          x
+                          −
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                      
+                    
+                    ]
+                  
+                
+                
+                  
+                    [
+                    
+                      
+                        
+                          f
+                          (
+                          
+                            Q
+                            
+                              11
+                            
+                          
+                          )
+                        
+                        
+                          f
+                          (
+                          
+                            Q
+                            
+                              12
+                            
+                          
+                          )
+                        
+                      
+                      
+                        
+                          f
+                          (
+                          
+                            Q
+                            
+                              21
+                            
+                          
+                          )
+                        
+                        
+                          f
+                          (
+                          
+                            Q
+                            
+                              22
+                            
+                          
+                          )
+                        
+                      
+                    
+                    ]
+                  
+                
+                
+                  
+                    [
+                    
+                      
+                        
+                          
+                            y
+                            
+                              2
+                            
+                          
+                          −
+                          y
+                        
+                      
+                      
+                        
+                          y
+                          −
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                      
+                    
+                    ]
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}f(x,y)&={\frac {y_{2}-y}{y_{2}-y_{1}}}f(x,y_{1})+{\frac {y-y_{1}}{y_{2}-y_{1}}}f(x,y_{2})\\&={\frac {y_{2}-y}{y_{2}-y_{1}}}\left({\frac {x_{2}-x}{x_{2}-x_{1}}}f(Q_{11})+{\frac {x-x_{1}}{x_{2}-x_{1}}}f(Q_{21})\right)+{\frac {y-y_{1}}{y_{2}-y_{1}}}\left({\frac {x_{2}-x}{x_{2}-x_{1}}}f(Q_{12})+{\frac {x-x_{1}}{x_{2}-x_{1}}}f(Q_{22})\right)\\&{\begin{aligned}={\frac {1}{(x_{2}-x_{1})(y_{2}-y_{1})}}(&f(Q_{11})(x_{2}-x)(y_{2}-y)+f(Q_{12})(x_{2}-x)(y-y_{1})\\&+f(Q_{21})(x-x_{1})(y_{2}-y)+f(Q_{22})(x-x_{1})(y-y_{1}))\end{aligned}}\\&={\frac {1}{(x_{2}-x_{1})(y_{2}-y_{1})}}{\begin{bmatrix}x_{2}-x&x-x_{1}\end{bmatrix}}{\begin{bmatrix}f(Q_{11})&f(Q_{12})\\f(Q_{21})&f(Q_{22})\end{bmatrix}}{\begin{bmatrix}y_{2}-y\\y-y_{1}\end{bmatrix}}.\end{aligned}}}
+  
+
+Note that we will arrive at the same result if the interpolation is done first along the y direction and then along the x direction.
+
+Polynomial fit
+An alternative way is to write the solution to the interpolation problem as a multilinear polynomial
+
+  
+    
+      
+        f
+        (
+        x
+        ,
+        y
+        )
+        ≈
+        
+          a
+          
+            00
+          
+        
+        +
+        
+          a
+          
+            10
+          
+        
+        x
+        +
+        
+          a
+          
+            01
+          
+        
+        y
+        +
+        
+          a
+          
+            11
+          
+        
+        x
+        y
+        ,
+      
+    
+    {\displaystyle f(x,y)\approx a_{00}+a_{10}x+a_{01}y+a_{11}xy,}
+  
+
+where the coefficients are found by solving the linear system
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    [
+                    
+                      
+                        
+                          1
+                        
+                        
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            x
+                            
+                              1
+                            
+                          
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                      
+                      
+                        
+                          1
+                        
+                        
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                        
+                          
+                            x
+                            
+                              1
+                            
+                          
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                      
+                      
+                        
+                          1
+                        
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                        
+                        
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                      
+                      
+                        
+                          1
+                        
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                        
+                        
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                      
+                    
+                    ]
+                  
+                
+                
+                  
+                    [
+                    
+                      
+                        
+                          
+                            a
+                            
+                              00
+                            
+                          
+                        
+                      
+                      
+                        
+                          
+                            a
+                            
+                              10
+                            
+                          
+                        
+                      
+                      
+                        
+                          
+                            a
+                            
+                              01
+                            
+                          
+                        
+                      
+                      
+                        
+                          
+                            a
+                            
+                              11
+                            
+                          
+                        
+                      
+                    
+                    ]
+                  
+                
+                =
+                
+                  
+                    [
+                    
+                      
+                        
+                          f
+                          (
+                          
+                            Q
+                            
+                              11
+                            
+                          
+                          )
+                        
+                      
+                      
+                        
+                          f
+                          (
+                          
+                            Q
+                            
+                              12
+                            
+                          
+                          )
+                        
+                      
+                      
+                        
+                          f
+                          (
+                          
+                            Q
+                            
+                              21
+                            
+                          
+                          )
+                        
+                      
+                      
+                        
+                          f
+                          (
+                          
+                            Q
+                            
+                              22
+                            
+                          
+                          )
+                        
+                      
+                    
+                    ]
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\begin{bmatrix}1&x_{1}&y_{1}&x_{1}y_{1}\\1&x_{1}&y_{2}&x_{1}y_{2}\\1&x_{2}&y_{1}&x_{2}y_{1}\\1&x_{2}&y_{2}&x_{2}y_{2}\end{bmatrix}}{\begin{bmatrix}a_{00}\\a_{10}\\a_{01}\\a_{11}\end{bmatrix}}={\begin{bmatrix}f(Q_{11})\\f(Q_{12})\\f(Q_{21})\\f(Q_{22})\end{bmatrix}},\end{aligned}}}
+  
+
+yielding the result
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    [
+                    
+                      
+                        
+                          
+                            a
+                            
+                              00
+                            
+                          
+                        
+                      
+                      
+                        
+                          
+                            a
+                            
+                              10
+                            
+                          
+                        
+                      
+                      
+                        
+                          
+                            a
+                            
+                              01
+                            
+                          
+                        
+                      
+                      
+                        
+                          
+                            a
+                            
+                              11
+                            
+                          
+                        
+                      
+                    
+                    ]
+                  
+                
+                =
+                
+                  
+                    1
+                    
+                      (
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        x
+                        
+                          1
+                        
+                      
+                      )
+                      (
+                      
+                        y
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        y
+                        
+                          1
+                        
+                      
+                      )
+                    
+                  
+                
+                
+                  
+                    [
+                    
+                      
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                        
+                          −
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                        
+                          −
+                          
+                            x
+                            
+                              1
+                            
+                          
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                        
+                          
+                            x
+                            
+                              1
+                            
+                          
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                      
+                      
+                        
+                          −
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                        
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                        
+                          −
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                      
+                      
+                        
+                          −
+                          
+                            x
+                            
+                              2
+                            
+                          
+                        
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                        
+                        
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                        
+                          −
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                      
+                      
+                        
+                          1
+                        
+                        
+                          −
+                          1
+                        
+                        
+                          −
+                          1
+                        
+                        
+                          1
+                        
+                      
+                    
+                    ]
+                  
+                
+                
+                  
+                    [
+                    
+                      
+                        
+                          f
+                          (
+                          
+                            Q
+                            
+                              11
+                            
+                          
+                          )
+                        
+                      
+                      
+                        
+                          f
+                          (
+                          
+                            Q
+                            
+                              12
+                            
+                          
+                          )
+                        
+                      
+                      
+                        
+                          f
+                          (
+                          
+                            Q
+                            
+                              21
+                            
+                          
+                          )
+                        
+                      
+                      
+                        
+                          f
+                          (
+                          
+                            Q
+                            
+                              22
+                            
+                          
+                          )
+                        
+                      
+                    
+                    ]
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\begin{bmatrix}a_{00}\\a_{10}\\a_{01}\\a_{11}\end{bmatrix}}={\frac {1}{(x_{2}-x_{1})(y_{2}-y_{1})}}{\begin{bmatrix}x_{2}y_{2}&-x_{2}y_{1}&-x_{1}y_{2}&x_{1}y_{1}\\-y_{2}&y_{1}&y_{2}&-y_{1}\\-x_{2}&x_{2}&x_{1}&-x_{1}\\1&-1&-1&1\end{bmatrix}}{\begin{bmatrix}f(Q_{11})\\f(Q_{12})\\f(Q_{21})\\f(Q_{22})\end{bmatrix}}.\end{aligned}}}
+
+Weighted mean
+The solution can also be written as a weighted mean of the f(Q):
+
+  
+    
+      
+        f
+        (
+        x
+        ,
+        y
+        )
+        ≈
+        
+          w
+          
+            11
+          
+        
+        f
+        (
+        
+          Q
+          
+            11
+          
+        
+        )
+        +
+        
+          w
+          
+            12
+          
+        
+        f
+        (
+        
+          Q
+          
+            12
+          
+        
+        )
+        +
+        
+          w
+          
+            21
+          
+        
+        f
+        (
+        
+          Q
+          
+            21
+          
+        
+        )
+        +
+        
+          w
+          
+            22
+          
+        
+        f
+        (
+        
+          Q
+          
+            22
+          
+        
+        )
+        ,
+      
+    
+    {\displaystyle f(x,y)\approx w_{11}f(Q_{11})+w_{12}f(Q_{12})+w_{21}f(Q_{21})+w_{22}f(Q_{22}),}
+  
+
+where the weights sum to 1 and satisfy the transposed linear system
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  1
+                
+                
+                  1
+                
+                
+                  1
+                
+                
+                  1
+                
+              
+              
+                
+                  
+                    x
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  
+                    y
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    y
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    y
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    y
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  
+                    x
+                    
+                      1
+                    
+                  
+                  
+                    y
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      1
+                    
+                  
+                  
+                    y
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      2
+                    
+                  
+                  
+                    y
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      2
+                    
+                  
+                  
+                    y
+                    
+                      2
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        
+          
+            [
+            
+              
+                
+                  
+                    w
+                    
+                      11
+                    
+                  
+                
+              
+              
+                
+                  
+                    w
+                    
+                      12
+                    
+                  
+                
+              
+              
+                
+                  
+                    w
+                    
+                      21
+                    
+                  
+                
+              
+              
+                
+                  
+                    w
+                    
+                      22
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  1
+                
+              
+              
+                
+                  x
+                
+              
+              
+                
+                  y
+                
+              
+              
+                
+                  x
+                  y
+                
+              
+            
+            ]
+          
+        
+        ,
+      
+    
+    {\displaystyle {\begin{bmatrix}1&1&1&1\\x_{1}&x_{1}&x_{2}&x_{2}\\y_{1}&y_{2}&y_{1}&y_{2}\\x_{1}y_{1}&x_{1}y_{2}&x_{2}y_{1}&x_{2}y_{2}\end{bmatrix}}{\begin{bmatrix}w_{11}\\w_{12}\\w_{21}\\w_{22}\end{bmatrix}}={\begin{bmatrix}1\\x\\y\\xy\end{bmatrix}},}
+  
+
+yielding the result
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    [
+                    
+                      
+                        
+                          
+                            w
+                            
+                              11
+                            
+                          
+                        
+                      
+                      
+                        
+                          
+                            w
+                            
+                              21
+                            
+                          
+                        
+                      
+                      
+                        
+                          
+                            w
+                            
+                              12
+                            
+                          
+                        
+                      
+                      
+                        
+                          
+                            w
+                            
+                              22
+                            
+                          
+                        
+                      
+                    
+                    ]
+                  
+                
+                =
+                
+                  
+                    1
+                    
+                      (
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        x
+                        
+                          1
+                        
+                      
+                      )
+                      (
+                      
+                        y
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        y
+                        
+                          1
+                        
+                      
+                      )
+                    
+                  
+                
+                
+                  
+                    [
+                    
+                      
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                        
+                          −
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                        
+                          −
+                          
+                            x
+                            
+                              2
+                            
+                          
+                        
+                        
+                          1
+                        
+                      
+                      
+                        
+                          −
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                        
+                        
+                          −
+                          1
+                        
+                      
+                      
+                        
+                          −
+                          
+                            x
+                            
+                              1
+                            
+                          
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                        
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                        
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                        
+                          −
+                          1
+                        
+                      
+                      
+                        
+                          
+                            x
+                            
+                              1
+                            
+                          
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                        
+                          −
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                        
+                          −
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                        
+                          1
+                        
+                      
+                    
+                    ]
+                  
+                
+                
+                  
+                    [
+                    
+                      
+                        
+                          1
+                        
+                      
+                      
+                        
+                          x
+                        
+                      
+                      
+                        
+                          y
+                        
+                      
+                      
+                        
+                          x
+                          y
+                        
+                      
+                    
+                    ]
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\begin{bmatrix}w_{11}\\w_{21}\\w_{12}\\w_{22}\end{bmatrix}}={\frac {1}{(x_{2}-x_{1})(y_{2}-y_{1})}}{\begin{bmatrix}x_{2}y_{2}&-y_{2}&-x_{2}&1\\-x_{2}y_{1}&y_{1}&x_{2}&-1\\-x_{1}y_{2}&y_{2}&x_{1}&-1\\x_{1}y_{1}&-y_{1}&-x_{1}&1\end{bmatrix}}{\begin{bmatrix}1\\x\\y\\xy\end{bmatrix}},\end{aligned}}}
+  
+
+which simplifies to
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  w
+                  
+                    11
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      (
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      −
+                      x
+                      )
+                      (
+                      
+                        y
+                        
+                          2
+                        
+                      
+                      −
+                      y
+                      )
+                    
+                    
+                      (
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        x
+                        
+                          1
+                        
+                      
+                      )
+                      (
+                      
+                        y
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        y
+                        
+                          1
+                        
+                      
+                      )
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  w
+                  
+                    12
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      (
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      −
+                      x
+                      )
+                      (
+                      y
+                      −
+                      
+                        y
+                        
+                          1
+                        
+                      
+                      )
+                    
+                    
+                      (
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        x
+                        
+                          1
+                        
+                      
+                      )
+                      (
+                      
+                        y
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        y
+                        
+                          1
+                        
+                      
+                      )
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  w
+                  
+                    21
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      (
+                      x
+                      −
+                      
+                        x
+                        
+                          1
+                        
+                      
+                      )
+                      (
+                      
+                        y
+                        
+                          2
+                        
+                      
+                      −
+                      y
+                      )
+                    
+                    
+                      (
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        x
+                        
+                          1
+                        
+                      
+                      )
+                      (
+                      
+                        y
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        y
+                        
+                          1
+                        
+                      
+                      )
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  w
+                  
+                    22
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      (
+                      x
+                      −
+                      
+                        x
+                        
+                          1
+                        
+                      
+                      )
+                      (
+                      y
+                      −
+                      
+                        y
+                        
+                          1
+                        
+                      
+                      )
+                    
+                    
+                      (
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        x
+                        
+                          1
+                        
+                      
+                      )
+                      (
+                      
+                        y
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        y
+                        
+                          1
+                        
+                      
+                      )
+                    
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}w_{11}&={\frac {(x_{2}-x)(y_{2}-y)}{(x_{2}-x_{1})(y_{2}-y_{1})}},\\w_{12}&={\frac {(x_{2}-x)(y-y_{1})}{(x_{2}-x_{1})(y_{2}-y_{1})}},\\w_{21}&={\frac {(x-x_{1})(y_{2}-y)}{(x_{2}-x_{1})(y_{2}-y_{1})}},\\w_{22}&={\frac {(x-x_{1})(y-y_{1})}{(x_{2}-x_{1})(y_{2}-y_{1})}},\end{aligned}}}
+  
+
+in agreement with the result obtained by repeated linear interpolation. The set of weights can also be interpreted as a set of generalized barycentric coordinates for a rectangle.
+
+Alternative matrix form
+Combining the above, we have
+
+  
+    
+      
+        
+          
+            
+              
+                f
+                (
+                x
+                ,
+                y
+                )
+                ≈
+                
+                  
+                    1
+                    
+                      (
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        x
+                        
+                          1
+                        
+                      
+                      )
+                      (
+                      
+                        y
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        y
+                        
+                          1
+                        
+                      
+                      )
+                    
+                  
+                
+                
+                  
+                    [
+                    
+                      
+                        
+                          f
+                          (
+                          
+                            Q
+                            
+                              11
+                            
+                          
+                          )
+                        
+                        
+                          f
+                          (
+                          
+                            Q
+                            
+                              12
+                            
+                          
+                          )
+                        
+                        
+                          f
+                          (
+                          
+                            Q
+                            
+                              21
+                            
+                          
+                          )
+                        
+                        
+                          f
+                          (
+                          
+                            Q
+                            
+                              22
+                            
+                          
+                          )
+                        
+                      
+                    
+                    ]
+                  
+                
+                
+                  
+                    [
+                    
+                      
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                        
+                          −
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                        
+                          −
+                          
+                            x
+                            
+                              2
+                            
+                          
+                        
+                        
+                          1
+                        
+                      
+                      
+                        
+                          −
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                        
+                        
+                          −
+                          1
+                        
+                      
+                      
+                        
+                          −
+                          
+                            x
+                            
+                              1
+                            
+                          
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                        
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                        
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                        
+                          −
+                          1
+                        
+                      
+                      
+                        
+                          
+                            x
+                            
+                              1
+                            
+                          
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                        
+                          −
+                          
+                            y
+                            
+                              1
+                            
+                          
+                        
+                        
+                          −
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                        
+                          1
+                        
+                      
+                    
+                    ]
+                  
+                
+                
+                  
+                    [
+                    
+                      
+                        
+                          1
+                        
+                      
+                      
+                        
+                          x
+                        
+                      
+                      
+                        
+                          y
+                        
+                      
+                      
+                        
+                          x
+                          y
+                        
+                      
+                    
+                    ]
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}f(x,y)\approx {\frac {1}{(x_{2}-x_{1})(y_{2}-y_{1})}}{\begin{bmatrix}f(Q_{11})&f(Q_{12})&f(Q_{21})&f(Q_{22})\end{bmatrix}}{\begin{bmatrix}x_{2}y_{2}&-y_{2}&-x_{2}&1\\-x_{2}y_{1}&y_{1}&x_{2}&-1\\-x_{1}y_{2}&y_{2}&x_{1}&-1\\x_{1}y_{1}&-y_{1}&-x_{1}&1\end{bmatrix}}{\begin{bmatrix}1\\x\\y\\xy\end{bmatrix}}.\end{aligned}}}
+
+On the unit square
+If we choose a coordinate system in which the four points where f is known are (0, 0), (0, 1), (1, 0), and (1, 1), then the interpolation formula simplifies to 
+
+  
+    
+      
+        f
+        (
+        x
+        ,
+        y
+        )
+        ≈
+        f
+        (
+        0
+        ,
+        0
+        )
+        (
+        1
+        −
+        x
+        )
+        (
+        1
+        −
+        y
+        )
+        +
+        f
+        (
+        0
+        ,
+        1
+        )
+        (
+        1
+        −
+        x
+        )
+        y
+        +
+        f
+        (
+        1
+        ,
+        0
+        )
+        x
+        (
+        1
+        −
+        y
+        )
+        +
+        f
+        (
+        1
+        ,
+        1
+        )
+        x
+        y
+        ,
+      
+    
+    {\displaystyle f(x,y)\approx f(0,0)(1-x)(1-y)+f(0,1)(1-x)y+f(1,0)x(1-y)+f(1,1)xy,}
+  
+
+or equivalently, in matrix operations:
+
+  
+    
+      
+        f
+        (
+        x
+        ,
+        y
+        )
+        ≈
+        
+          
+            [
+            
+              
+                
+                  1
+                  −
+                  x
+                
+                
+                  x
+                
+              
+            
+            ]
+          
+        
+        
+          
+            [
+            
+              
+                
+                  f
+                  (
+                  0
+                  ,
+                  0
+                  )
+                
+                
+                  f
+                  (
+                  0
+                  ,
+                  1
+                  )
+                
+              
+              
+                
+                  f
+                  (
+                  1
+                  ,
+                  0
+                  )
+                
+                
+                  f
+                  (
+                  1
+                  ,
+                  1
+                  )
+                
+              
+            
+            ]
+          
+        
+        
+          
+            [
+            
+              
+                
+                  1
+                  −
+                  y
+                
+              
+              
+                
+                  y
+                
+              
+            
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle f(x,y)\approx {\begin{bmatrix}1-x&x\end{bmatrix}}{\begin{bmatrix}f(0,0)&f(0,1)\\f(1,0)&f(1,1)\end{bmatrix}}{\begin{bmatrix}1-y\\y\end{bmatrix}}.}
+  
+
+Here we also recognize the weights:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  w
+                  
+                    11
+                  
+                
+              
+              
+                
+                =
+                (
+                1
+                −
+                x
+                )
+                (
+                1
+                −
+                y
+                )
+                ,
+              
+            
+            
+              
+                
+                  w
+                  
+                    12
+                  
+                
+              
+              
+                
+                =
+                (
+                1
+                −
+                x
+                )
+                y
+                ,
+              
+            
+            
+              
+                
+                  w
+                  
+                    21
+                  
+                
+              
+              
+                
+                =
+                x
+                (
+                1
+                −
+                y
+                )
+                ,
+              
+            
+            
+              
+                
+                  w
+                  
+                    22
+                  
+                
+              
+              
+                
+                =
+                x
+                y
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}w_{11}&=(1-x)(1-y),\\w_{12}&=(1-x)y,\\w_{21}&=x(1-y),\\w_{22}&=xy.\end{aligned}}}
+  
+
+Alternatively, the interpolant on the unit square can be written as
+
+  
+    
+      
+        f
+        (
+        x
+        ,
+        y
+        )
+        =
+        
+          a
+          
+            00
+          
+        
+        +
+        
+          a
+          
+            10
+          
+        
+        x
+        +
+        
+          a
+          
+            01
+          
+        
+        y
+        +
+        
+          a
+          
+            11
+          
+        
+        x
+        y
+        ,
+      
+    
+    {\displaystyle f(x,y)=a_{00}+a_{10}x+a_{01}y+a_{11}xy,}
+  
+
+where 
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  a
+                  
+                    00
+                  
+                
+              
+              
+                
+                =
+                f
+                (
+                0
+                ,
+                0
+                )
+                ,
+              
+            
+            
+              
+                
+                  a
+                  
+                    10
+                  
+                
+              
+              
+                
+                =
+                f
+                (
+                1
+                ,
+                0
+                )
+                −
+                f
+                (
+                0
+                ,
+                0
+                )
+                ,
+              
+            
+            
+              
+                
+                  a
+                  
+                    01
+                  
+                
+              
+              
+                
+                =
+                f
+                (
+                0
+                ,
+                1
+                )
+                −
+                f
+                (
+                0
+                ,
+                0
+                )
+                ,
+              
+            
+            
+              
+                
+                  a
+                  
+                    11
+                  
+                
+              
+              
+                
+                =
+                f
+                (
+                1
+                ,
+                1
+                )
+                −
+                f
+                (
+                1
+                ,
+                0
+                )
+                −
+                f
+                (
+                0
+                ,
+                1
+                )
+                +
+                f
+                (
+                0
+                ,
+                0
+                )
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}a_{00}&=f(0,0),\\a_{10}&=f(1,0)-f(0,0),\\a_{01}&=f(0,1)-f(0,0),\\a_{11}&=f(1,1)-f(1,0)-f(0,1)+f(0,0).\end{aligned}}}
+  
+
+In both cases, the number of constants (four) correspond to the number of data points where f is given.
+
+Properties
+As the name suggests, the bilinear interpolant is not linear; but it is linear (i.e. affine) along lines parallel to either the x or the y direction, equivalently if x or y is held constant. Along any other straight line, the interpolant is quadratic. Even though the interpolation is not linear in the position (x and y), at a fixed point it is linear in the interpolation values, as can be seen in the (matrix) equations above.
+The result of bilinear interpolation is independent of which axis is interpolated first and which second. If we had first performed the linear interpolation in the y direction and then in the x direction, the resulting approximation would be the same.
+The interpolant is a bilinear polynomial, which is also a harmonic function satisfying Laplace's equation. Its graph is a bilinear Bézier surface patch.
+
+Inverse and generalization
+In general, the interpolant will assume any value (in the convex hull of the vertex values) at an infinite number of points (forming branches of hyperbolas), so the interpolation is not invertible.
+However, when bilinear interpolation is applied to two functions simultaneously, such as when interpolating a vector field, then the interpolation is invertible (under certain conditions). In particular, this inverse can be used to find the "unit square coordinates" of a point inside any convex quadrilateral (by considering the coordinates of the quadrilateral as a vector field which is bilinearly interpolated on the unit square). Using this procedure bilinear interpolation can be extended to any convex quadrilateral, though the computation is significantly more complicated if it is not a parallelogram. The resulting map between quadrilaterals is known as a bilinear transformation, bilinear warp or bilinear distortion.
+Alternatively, a projective mapping between a quadrilateral and the unit square may be used, but the resulting interpolant will not be bilinear.
+In the special case when the quadrilateral is a parallelogram, a linear mapping to the unit square exists and the generalization follows easily.
+The obvious extension of bilinear interpolation to three dimensions is called trilinear interpolation.
+
+Application in image processing
+In computer vision and image processing, bilinear interpolation is used to resample images and textures. An algorithm is used to map a screen pixel location to a corresponding point on the texture map. A weighted average of the attributes (color, transparency, etc.) of the four surrounding texels is computed and applied to the screen pixel. This process is repeated for each pixel forming the object being textured.
+When an image needs to be scaled up, each pixel of the original image needs to be moved in a certain direction based on the scale constant. However, when scaling up an image by a non-integral scale factor, there are pixels (i.e., holes) that are not assigned appropriate pixel values. In this case, those holes should be assigned appropriate RGB or grayscale values so that the output image does not have non-valued pixels.
+Bilinear interpolation can be used where perfect image transformation with pixel matching is impossible, so that one can calculate and assign appropriate intensity values to pixels. Unlike other interpolation techniques such as nearest-neighbor interpolation and bicubic interpolation, bilinear interpolation uses values of only the 4 nearest pixels, located in diagonal directions from a given pixel, in order to find the appropriate color intensity values of that pixel.
+Bilinear interpolation considers the closest 2 × 2 neighborhood of known pixel values surrounding the unknown pixel's computed location. It then takes a weighted average of these 4 pixels to arrive at its final, interpolated value.
+
+Example
+As seen in the example on the right, the intensity value at the pixel computed to be at row 20.2, column 14.5 can be calculated by first linearly interpolating between the values at column 14 and 15 on each rows 20 and 21, giving
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  I
+                  
+                    20
+                    ,
+                    14.5
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      15
+                      −
+                      14.5
+                    
+                    
+                      15
+                      −
+                      14
+                    
+                  
+                
+                ⋅
+                91
+                +
+                
+                  
+                    
+                      14.5
+                      −
+                      14
+                    
+                    
+                      15
+                      −
+                      14
+                    
+                  
+                
+                ⋅
+                210
+                =
+                150.5
+                ,
+              
+            
+            
+              
+                
+                  I
+                  
+                    21
+                    ,
+                    14.5
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      15
+                      −
+                      14.5
+                    
+                    
+                      15
+                      −
+                      14
+                    
+                  
+                
+                ⋅
+                162
+                +
+                
+                  
+                    
+                      14.5
+                      −
+                      14
+                    
+                    
+                      15
+                      −
+                      14
+                    
+                  
+                
+                ⋅
+                95
+                =
+                128.5
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}I_{20,14.5}&={\frac {15-14.5}{15-14}}\cdot 91+{\frac {14.5-14}{15-14}}\cdot 210=150.5,\\I_{21,14.5}&={\frac {15-14.5}{15-14}}\cdot 162+{\frac {14.5-14}{15-14}}\cdot 95=128.5,\end{aligned}}}
+  
+
+and then interpolating linearly between these values, giving
+
+  
+    
+      
+        
+          I
+          
+            20.2
+            ,
+            14.5
+          
+        
+        =
+        
+          
+            
+              21
+              −
+              20.2
+            
+            
+              21
+              −
+              20
+            
+          
+        
+        ⋅
+        150.5
+        +
+        
+          
+            
+              20.2
+              −
+              20
+            
+            
+              21
+              −
+              20
+            
+          
+        
+        ⋅
+        128.5
+        =
+        146.1.
+      
+    
+    {\displaystyle I_{20.2,14.5}={\frac {21-20.2}{21-20}}\cdot 150.5+{\frac {20.2-20}{21-20}}\cdot 128.5=146.1.}
+  
+
+This algorithm reduces some of the visual distortion caused by resizing an image to a non-integral zoom factor, as opposed to nearest-neighbor interpolation, which will make some pixels appear larger than others in the resized image.
+
+A simplification of terms
+This example is of tabularised pressure (columns) vs temperature (rows) data as a lookup against some variable:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      
+                        
+
+                        
+                        
+                          T
+                        
+                      
+                      
+                      
+                        
+
+                        
+                        
+                          P
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    P
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    P
+                    
+                      x
+                    
+                  
+                
+                
+                  
+                    P
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  
+                    T
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    V
+                    
+                      11
+                    
+                  
+                
+                
+                  
+                    V
+                    
+                      1
+                      x
+                    
+                  
+                
+                
+                  
+                    V
+                    
+                      12
+                    
+                  
+                
+              
+              
+                
+                  
+                    T
+                    
+                      x
+                    
+                  
+                
+                
+                
+                  
+                    V
+                    
+                      x
+                      x
+                    
+                  
+                
+                
+              
+              
+                
+                  
+                    T
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    V
+                    
+                      21
+                    
+                  
+                
+                
+                  
+                    V
+                    
+                      2
+                      x
+                    
+                  
+                
+                
+                  
+                    V
+                    
+                      22
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{array}{|c|ccc|}{\bcancel {{}_{T}\quad {}^{P}}}&P_{1}&P_{x}&P_{2}\\\hline T_{1}&V_{11}&V_{1x}&V_{12}\\T_{x}&&V_{xx}&\\T_{2}&V_{21}&V_{2x}&V_{22}\end{array}}}
+  
+
+The following standard calculation by parts has 27 operations:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  I
+                  
+                    
+                      T
+                      
+                        1
+                      
+                    
+                    ,
+                    
+                      P
+                      
+                        1
+                      
+                    
+                    −
+                    
+                      P
+                      
+                        2
+                      
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        P
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        P
+                        
+                          x
+                        
+                      
+                    
+                    
+                      
+                        P
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        P
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                ⋅
+                
+                  V
+                  
+                    11
+                  
+                
+                +
+                
+                  
+                    
+                      
+                        P
+                        
+                          x
+                        
+                      
+                      −
+                      
+                        P
+                        
+                          1
+                        
+                      
+                    
+                    
+                      
+                        P
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        P
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                ⋅
+                
+                  V
+                  
+                    12
+                  
+                
+                =
+                
+                  V
+                  
+                    1
+                    x
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  I
+                  
+                    
+                      T
+                      
+                        2
+                      
+                    
+                    ,
+                    
+                      P
+                      
+                        1
+                      
+                    
+                    −
+                    
+                      P
+                      
+                        2
+                      
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        P
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        P
+                        
+                          x
+                        
+                      
+                    
+                    
+                      
+                        P
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        P
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                ⋅
+                
+                  V
+                  
+                    21
+                  
+                
+                +
+                
+                  
+                    
+                      
+                        P
+                        
+                          x
+                        
+                      
+                      −
+                      
+                        P
+                        
+                          1
+                        
+                      
+                    
+                    
+                      
+                        P
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        P
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                ⋅
+                
+                  V
+                  
+                    22
+                  
+                
+                =
+                
+                  V
+                  
+                    2
+                    x
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  I
+                  
+                    
+                      P
+                      
+                        x
+                      
+                    
+                    ,
+                    
+                      T
+                      
+                        1
+                      
+                    
+                    −
+                    
+                      T
+                      
+                        2
+                      
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        T
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        T
+                        
+                          x
+                        
+                      
+                    
+                    
+                      
+                        T
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        T
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                ⋅
+                
+                  V
+                  
+                    1
+                    x
+                  
+                
+                +
+                
+                  
+                    
+                      
+                        T
+                        
+                          x
+                        
+                      
+                      −
+                      
+                        T
+                        
+                          1
+                        
+                      
+                    
+                    
+                      
+                        T
+                        
+                          2
+                        
+                      
+                      −
+                      
+                        T
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                ⋅
+                
+                  V
+                  
+                    2
+                    x
+                  
+                
+                =
+                
+                  V
+                  
+                    x
+                    x
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}I_{T_{1},P_{1}-P_{2}}&={\frac {P_{2}-P_{x}}{P_{2}-P_{1}}}\cdot V_{11}+{\frac {P_{x}-P_{1}}{P_{2}-P_{1}}}\cdot V_{12}=V_{1x},\\I_{T_{2},P_{1}-P_{2}}&={\frac {P_{2}-P_{x}}{P_{2}-P_{1}}}\cdot V_{21}+{\frac {P_{x}-P_{1}}{P_{2}-P_{1}}}\cdot V_{22}=V_{2x},\\I_{P_{x},T_{1}-T_{2}}&={\frac {T_{2}-T_{x}}{T_{2}-T_{1}}}\cdot V_{1x}+{\frac {T_{x}-T_{1}}{T_{2}-T_{1}}}\cdot V_{2x}=V_{xx}.\end{aligned}}}
+  
+
+The above has several repeated operations, e.g., 
+  
+    
+      
+        (
+        
+          P
+          
+            2
+          
+        
+        −
+        
+          P
+          
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle (P_{2}-P_{1})}
+  
+, 
+  
+    
+      
+        (
+        
+          P
+          
+            x
+          
+        
+        −
+        
+          P
+          
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle (P_{x}-P_{1})}
+  
+, 
+  
+    
+      
+        (
+        
+          P
+          
+            x
+          
+        
+        −
+        
+          P
+          
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle (P_{x}-P_{1})}
+  
+, 
+  
+    
+      
+        (
+        
+          T
+          
+            2
+          
+        
+        −
+        
+          T
+          
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle (T_{2}-T_{1})}
+  
+, as well as some ratios. These repetitions can be assigned temporary variables whilst computing a single interpolation, which will reduce the number of operations to 19.
+This can all be simplified from the initial 19 individual operations to 17 individual operations as such:
+
+  
+    
+      
+        
+          V
+          
+            x
+            x
+          
+        
+        =
+        
+          
+            
+              [
+              (
+              
+                P
+                
+                  2
+                
+              
+              −
+              
+                P
+                
+                  x
+                
+              
+              )
+              ⋅
+              
+                V
+                
+                  11
+                
+              
+              +
+              (
+              
+                P
+                
+                  x
+                
+              
+              −
+              
+                P
+                
+                  1
+                
+              
+              )
+              ⋅
+              
+                V
+                
+                  12
+                
+              
+              ]
+              ⋅
+              (
+              
+                T
+                
+                  2
+                
+              
+              −
+              
+                T
+                
+                  x
+                
+              
+              )
+              +
+              [
+              (
+              
+                P
+                
+                  2
+                
+              
+              −
+              
+                P
+                
+                  x
+                
+              
+              )
+              ⋅
+              
+                V
+                
+                  21
+                
+              
+              +
+              (
+              
+                P
+                
+                  x
+                
+              
+              −
+              
+                P
+                
+                  1
+                
+              
+              )
+              ⋅
+              
+                V
+                
+                  22
+                
+              
+              ]
+              ⋅
+              (
+              
+                T
+                
+                  x
+                
+              
+              −
+              
+                T
+                
+                  1
+                
+              
+              )
+            
+            
+              (
+              
+                P
+                
+                  2
+                
+              
+              −
+              
+                P
+                
+                  1
+                
+              
+              )
+              ⋅
+              (
+              
+                T
+                
+                  2
+                
+              
+              −
+              
+                T
+                
+                  1
+                
+              
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle V_{xx}={\frac {[(P_{2}-P_{x})\cdot V_{11}+(P_{x}-P_{1})\cdot V_{12}]\cdot (T_{2}-T_{x})+[(P_{2}-P_{x})\cdot V_{21}+(P_{x}-P_{1})\cdot V_{22}]\cdot (T_{x}-T_{1})}{(P_{2}-P_{1})\cdot (T_{2}-T_{1})}}.}
+  
+
+Simplification of terms is good practice for application of mathematical methodology to engineering applications and can reduce computational and energy requirements for a process.
+
+See also
+Bicubic interpolation
+Trilinear interpolation
+Spline interpolation
+Lanczos resampling
+Stairstep interpolation
+Barycentric coordinates - for interpolating within a triangle or tetrahedron
+
+
+== References ==

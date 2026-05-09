@@ -1,0 +1,88 @@
+Cyanosis is the change of  tissue color to a bluish-purple hue, as a result of decrease in the amount of oxygen bound to the hemoglobin in the red blood cells of the capillary bed. Cyanosis is apparent usually in the  body tissues covered with thin skin, including the mucous membranes, lips, nail beds, and ear lobes. Some medications may cause discoloration such as medications containing amiodarone or silver. Furthermore, mongolian spots, large birthmarks, and the consumption of food products with blue or purple dyes can also result in the bluish skin tissue discoloration and may be mistaken for cyanosis.  Appropriate physical examination and history taking is a crucial part to diagnose cyanosis. Management of cyanosis involves treating the main cause, as cyanosis is not a disease, but rather a symptom.
+Cyanosis is further classified into central cyanosis and peripheral cyanosis.
+
+Pathophysiology
+The mechanism behind cyanosis is different depending on whether it is central or peripheral.
+
+Central cyanosis
+Central cyanosis occurs due to decrease in arterial oxygen saturation (SaO2), and begins to show once the concentration of deoxyhemoglobin in the blood reaches a concentration of ≥ 5.0 g/dL (≥ 3.1 mmol/L or oxygen saturation of ≤ 85%). This indicates a cardiopulmonary condition.
+Causes of central cyanosis are discussed below.
+
+Peripheral cyanosis
+Peripheral cyanosis happens when there is increased concentration of deoxyhemoglobin on the venous side of the peripheral circulation. In other words, cyanosis is dependent on the concentration of deoxyhemoglobin. Patients with severe anemia may appear normal despite higher-than-normal concentrations of deoxyhemoglobin. While patients with increased amounts of red blood cells (e.g., polycythemia vera) can appear cyanotic even with lower concentrations of deoxyhemoglobin.
+
+Causes
+Central cyanosis
+Central cyanosis is often due to a circulatory or ventilatory problem that leads to poor blood oxygenation in the lungs. It develops when arterial oxygen saturation drops below 85% or 75%.
+Acute cyanosis can be a result of asphyxiation or choking and is one of the definite signs that ventilation is being blocked.
+
+Central cyanosis may be due to the following causes:
+
+Central nervous system (impairing normal ventilation):
+Intracranial hemorrhage
+Drug overdose (e.g., heroin)
+Generalized tonic–clonic seizure (GTCS)
+Respiratory system:
+Pneumonia
+Bronchiolitis
+Bronchospasm (e.g., asthma)
+Pulmonary hypertension
+Pulmonary embolism
+Hypoventilation
+Chronic obstructive pulmonary disease, or COPD (emphysema)
+Cardiovascular system:
+Congenital heart disease (e.g., Tetralogy of Fallot, right to left shunts in heart or great vessels)
+Heart failure
+Valvular heart disease
+Myocardial infarction
+Hemoglobinopathies:
+Methemoglobinemia
+Sulfhemoglobinemia
+Polycythemia
+Congenital cyanosis (HbM Boston) arises from a mutation in the α-codon which results in a change of primary sequence, H → Y. Tyrosine stabilizes the Fe(III) form (oxyhaemoglobin) creating a permanent T-state of Hb.
+Others:
+High altitude, cyanosis may develop in ascents to altitudes >2400 m.
+Hypothermia
+Frostbite
+Obstructive sleep apnea
+
+Peripheral cyanosis
+Peripheral cyanosis is the blue tint in fingers or extremities, due to an inadequate or obstructed circulation. The blood reaching the extremities is not oxygen-rich and when viewed through the skin a combination of factors can lead to the appearance of a blue color. All factors contributing to central cyanosis can also cause peripheral symptoms to appear, but peripheral cyanosis can be observed in the absence of heart or lung failures. Small blood vessels may be restricted and can be treated by increasing the normal oxygenation level of the blood.
+
+Peripheral cyanosis may be due to the following causes:
+
+All common causes of central cyanosis
+Reduced cardiac output (e.g., heart failure or hypovolemia)
+Cold exposure
+Chronic obstructive pulmonary disease (COPD)
+Arterial obstruction (e.g., peripheral vascular disease, Raynaud phenomenon)
+Venous obstruction (e.g., deep vein thrombosis)
+
+Differential cyanosis
+Differential cyanosis is the bluish coloration of the lower but not the upper extremity and the head. This is seen in patients with a patent ductus arteriosus. Patients with a large ductus develop progressive pulmonary vascular disease, and pressure overload of the right ventricle occurs. As soon as pulmonary pressure exceeds aortic pressure, shunt reversal (right-to-left shunt) occurs. The upper extremity remains pink because deoxygenated blood flows through the patent duct and directly into the descending aorta while sparing the brachiocephalic trunk, left common carotid, and left subclavian arteries.
+
+Evaluation
+A detailed history and physical examination (particularly focusing on the cardiopulmonary system) can guide further management and help determine the medical tests to be performed. Tests that can be performed include pulse oximetry, arterial blood gas, complete blood count, methemoglobin level, electrocardiogram, echocardiogram, X-Ray, CT scan, cardiac catheterization, and hemoglobin electrophoresis.
+In newborns, peripheral cyanosis typically presents in the distal extremities, circumoral, and periorbital areas. Of note, mucous membranes remain pink in peripheral cyanosis as compared to central cyanosis where the mucous membranes are cyanotic.
+
+Skin pigmentation and hemoglobin concentration can affect the evaluation of cyanosis. Cyanosis may be more difficult to detect on people with darker skin pigmentation. However, cyanosis can still be diagnosed with careful examination of the typical body areas such as nail beds, tongue, and mucous membranes where the skin is thinner and more vascular. As mentioned above, patients with severe anemia may appear normal despite higher than normal concentrations of deoxyhemoglobin. Signs of severe anemia may include pale mucosa (lips, eyelids, and gums), fatigue, lightheadedness, and irregular heartbeats.
+
+Management
+Cyanosis is a symptom, not a disease itself, so management should be focused on treating the underlying cause.
+If it is an emergency, management should always begin with securing the airway, breathing, and circulation. In patients with significant respiratory distress, supplemental oxygen (in the form of nasal canula or continuous positive airway pressure depending on severity) should be given immediately.
+If the methemoglobin levels are positive for methemoglobinemia, first-line treatment is to administer methylene blue.
+
+History
+The name cyanosis literally means the blue disease or the blue condition. It is derived from the color cyan, which comes from cyanós (κυανός), the Greek word for blue.
+It is postulated by Dr. Christen Lundsgaard that cyanosis was first described in 1749 by Jean-Baptiste de Sénac, a French physician who served King Louis XV. De Sénac concluded from an autopsy that cyanosis was caused by a heart defect that led to the mixture of arterial and venous blood circulation. But it was not until 1919, when Dr. Lundsgaard was able to derive the concentration of deoxyhemoglobin (8 volumes per cent) that could cause cyanosis.
+
+See also
+Acrocyanosis
+Blue baby syndrome
+Raynaud's phenomenon
+Blue Fugates
+
+References
+
+
+== External links ==

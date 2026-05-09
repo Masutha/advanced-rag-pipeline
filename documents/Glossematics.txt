@@ -1,0 +1,34 @@
+In linguistics, glossematics is a structuralist theory proposed by Louis Hjelmslev and Hans Jørgen Uldall. It defines the glosseme as the most basic unit of language.
+Hjelmslev and Uldall eventually went separate ways with their respective approaches. Hjelmslev's theory, most notably, is an early mathematical methodology for the analysis of language which was subsequently incorporated into the analytical foundation of current models of functional–structural grammar such as Danish Functional Grammar, Functional Discourse Grammar and Systemic Functional Linguistics. Hjelmslev's theory likewise remains fundamental for modern semiotics.
+
+Meaning
+Glossematics defines the glosseme as the smallest irreducible unit of both the content and expression planes of language; in the expression plane, the glosseme is nearly identical to the phoneme. In the content plane, it is the smallest unit of meaning which underlies a concept. A ewe, for example, consists of the taxemes sheep and female which may eventually be divided into even smaller units – glossemes – of meaning. The analysis is gradually expanded to the study of functions, more commonly known as dependencies, between elements on the level of discourse (which is called process), and between meaning and form in the linguistic system.
+The term glosseme was coined by Louis Hjelmslev and Hans Jørgen Uldall in the 1930s. It derives from the Greek word glossa (meaning here 'language') and the -eme suffix. A similar idea was used by Leonard Bloomfield in describing his system of basic linguistic units, tagmemes, although glossematics is more far-reaching in each direction.
+
+Hjelmslev's theory of language
+Glossematics is an expansion of Saussure's concept of language as a dual system of meaning and form. This is in contrast to a contemporary American tendency of placing semantics outside the core of linguistics. Hjelmslev was also influenced by the Prague Linguistic Circle to the extent that he considered full texts as the material for analysis rather than ‘utterances' as was commonplace in American structuralism. Diverging from both American and European linguists, though, Hjelmslev considered language not as a social fact but as a computational system which underlies all sciences.
+The ultimate goal of the linguist is to gain a more perfect understanding of the whole through a thorough study of the structure of the constituent parts. To the greatest extent possible, glossematics seeks to construct a non-historical, non-sociological and non-psychological model based on language-specific principles and minimal reliance on factors external to the system. The linguist's task, analysing texts or corpora of different languages, aims to establish a universal model of the inner workings of language by comparing the underlying meta-structures of a given language to others. Rather than separate fields of study, Hjelmslev regarded phonology, morphology, syntax, lexicology and semantics as part of the same apparatus. 
+
+Linguistics must then see its main task in establishing a science of the expression and a science of the content on an internal and functional basis… [it must become a discipline] whose science of the expression is not phonetics and whose science of the content is not semantics. Such a science would be an algebra of language.
+By ‘phonetics' and ‘semantics' Hjelmslev means unorganised sound and meaning. Instead, a linguist must study expression and content, the systematised organisation of form and meaning of a given language which is to be deduced from the research material. As manifested by subsequent models of structural grammar, but also to an extent by generative grammar, units of a given level are collected into inventories (e.g. word classes, phrase types, etc.). Glossematics is then meant to become a device which can correctly predict all grammatical sentences of any language." Hjelmslev's idea later came to be associated with Noam Chomsky who used a modification of it made by his PhD supervisor Zellig Harris. Hjelmslev's fame however continues in semiotics, and in functional linguistics where his idea is incorporated into modern grammatical models including systemic functional linguistics and Danish functional linguistics.
+
+Formalism versus functionalism
+Glossematics earned the nickname formalism or formal linguistics after the publication of Hjelmslev's Prolegomena to a Theory of Language (Danish original published in 1943 with subsequent English and French translations). Some members of the Prague School disagreed with Hjelmslev's use of the word function in his meaning 'dependency' or 'link' in a chain of dependencies which is distant from the Praguian concept of the functions of language. Glossematics is a proper structuralist model in that it examines the interaction of the content level and the expression level. Nonetheless, the formalist epithet can be considered appropriate from different perspectives. For one, Hjelmslev considered linguistics as a formal science. For another, his approach to phonology was based on criteria of distribution, alternatives and other structural features of the system in a rejection of psychological definitions of the phoneme and definitions based on phonetic substance. He also believed that general linguistics should be the study of language as an autonomous system disregarding extralinguistic factors.
+
+See also
+The Copenhagen School of Linguistics
+Formal logic
+Phonology
+Structural linguistics
+Theory of language
+
+Notes
+References
+Hjelmslev, Louis (1928). Principes de grammaire générale. Copenhague: Bianco Lundo.
+Hjelmslev, Louis (1935/37). Catégorie des cas (2 volumes). Acta Jutlandica VII, IX.
+Hjelmslev, Louis (1953[1943]). Prolegomena to a Theory of Language. Baltimore: Indiana University Publications in Anthropology and Linguistics (IJAL Memoir, 7) (2nd OD (slightly rev.): Madison: University of Wisconsin Press, 1961. Dt.: Hjelmslev 1974.
+Hjelmslev, Louis (1975). Résumé of a Theory of Language. Travaux du Cercle linguistique de Copenhague, vol. XVI. Copenhague: Nordisk Sprog- og Kulturforlag.
+Siertsema, Bertha. 1965. A study of glossematics. Critical Survey of its fundamental concepts (2nd rev. edition). Den Haag: Martinus Nijhoff.
+Rasmussen, Michael. 1992. Hjelmslev sprogteori. Glossematikken i videnskabshistorisk, videnskabsteoretisk og erkendelsesteoretisk perspektiv. Odense: Odense Universitetsforlag
+Badir, Sémir. 2000. Hjelmslev. Paris: Les Belles Lettres.
+Derrida, Jacques. "Of Grammatology" Johns Hopkins University Press, 1974.

@@ -1,0 +1,44 @@
+The South African Radio League (SARL), formerly the South African Radio Relay League (SARRL), is a non-profit organisation representing the interests of amateur radio enthusiasts in South Africa. The SARL advocates to the South African government on behalf of its membership and all licensed amateur radio operators, serving as the national representative for amateur radio. This has included promoting the deregulation and simplification of the amateur radio service and increasing the number of amateur radio operators in Southern Africa. The SARL publicises and promotes the role of amateur radio in society and its use in schools as an entry point into science and technology. The SARL publishes a magazine called Radio ZS twelve times a year. The SARL is the national member society representing South Africa in the International Amateur Radio Union and is a member of IARU Region 1.
+
+History
+The South African Radio Relay League (SARRL) was formed in 1925 by a number of regional and local radio societies and clubs, some of which had been established around the time of the First World War. At the outset, membership was limited to licensed radio experimenters capable of two-way telegraphic communication by radio. Temporary headquarters for the organisation were established in Johannesburg. The first president to be elected was Joseph White, who had earlier been the chairman of the Transvaal Radio Society. Archival records from the league, including minutes of council from 1933–1973 and a register of members from 1925–1930, are held by the National Archives and Records Service of South Africa.
+A detailed history of the SARRL's first two years is difficult to trace because the league did not produce a regular publication. The league's first publication, a fortnightly news sheet called "F.O. News", appeared in 1927. While the news sheet was published for about a year, no copies survive in SARL records. QTC was the first printed magazine the organisation issued. The first issue was published in May 1928. The editor was R. S. Perry, A9Z, and the magazine was printed in Durban.
+
+Purpose
+The objective of the SARL is to encourage, develop, and promote all activities connected with amateur radio, wireless communications, computer science, and radio science. The league also aims to protect amateur radio frequency allocations and to promote international goodwill and understanding. The SARL also promotes recognition for amateur radio in all spheres of society in South Africa.
+
+HAMNET
+HAMNET is the Emergency Communications division of the South African Radio League. It "provides communications for emergencies and can mobilise experienced communicators who with their own radio equipment will back up official channels or take over when all else fails." According to its training materials, HAMNET's objectives include providing efficient and accurate radio communications during disasters, training members in emergency procedures, and forming an effective national radio network.
+
+Membership
+Membership of the SARL is open to any person interested in amateur radio. Citizenship or residence in South Africa is not a requirement. Unlicensed members are called "Listeners" and do not have a vote at the Annual General Meeting or other league meetings. Clubs and special interest groups can become affiliated with the SARL, but they do not have a vote; only individual full members do.
+
+Services to members
+The SARL website provides an online marketplace for members to trade radio and related equipment. Members also have access to a database of assigned South African radio amateur call signs. The SARL offers South African hams an online QSL system to capture and confirm local contacts with fellow radio amateurs. The organisation offers frequent examination opportunities for people seeking to obtain an amateur radio licence. The SARL encourages the full range of amateur radio service activities and facilitates reciprocal and guest licensing. The league also presents a weekly radio programme, Amateur Radio Today, which is broadcast on shortwave frequencies.
+
+Radio ZS
+Radio ZS is a journal included with SARL membership. The magazine is currently published electronically twelve times a year and issued on the last day of each month for the next month. The magazine is based in Bloemfontein.
+The name of the magazine is derived from the radio call sign prefix block assigned to South Africa by the International Telecommunication Union. Most South African amateur radio operators have call signs that begin with the letters ZS. The other call sign prefixes are ZR, ZT and ZU. According to the SARL, the Class A licence, which grants full band privileges, is associated with the ZR and ZS prefixes.
+
+Regulatory advocacy
+The SARL provides members with a channel for negotiation with the South African regulatory authority for telecommunications, the Independent Communications Authority of South Africa (ICASA). The SARL also gives members the advantage of collective representation and control in all matters affecting amateur radio. The SARL promotes and negotiates a legal and regulatory environment that acknowledges and permits the Amateur Radio Service. The SARL also advocates for access to all amateur radio bands allocated by the International Telecommunication Union (ITU) radio regulations.
+A notable area of advocacy has been for access to the 5 MHz (60-metre) band. In 2013, ICASA granted the SARL two experimental frequencies at 5250 kHz and 5260 kHz for an eight-month period to conduct propagation research. The research, a joint project with the Kempton Park Amateur Radio Technical Society, studied NVIS performance ahead of the 2015 World Radiocommunication Conference. In a 2017 submission to ICASA regarding the National Radio Frequency Plan, the SARL proposed retaining 5290 kHz for propagation beacons and allocating the band 5350–5450 kHz to amateur radio on a secondary basis.
+
+Scientific and educational collaboration with other organisations
+The League participates in an ionospheric research project led by the Hermanus Magnetic Observatory (HMO). The project studies radio propagation in the 40-m band in the ionosphere. The project entails a number of 40 milliwatt beacon transmitters at a frequency of 7.023 MHz being operated by amateurs across the country. Propagation data from these beacons is then analysed by scientists at the HMO to reveal details about the structure and behaviour of the ionosphere. Reception data is collected from reports by other amateurs all over the country. A further educational component of the project is participation by schools. The league's collaboration with the HMO also extends to a propagation beacon network on 5 MHz. Using automated WSPR transmitters on 5290 kHz, the network's data supports the HMO's ionospheric studies and a related school outreach programme.
+Schoolchildren, equipped with sponsored simple receivers developed by the SARL, also participate in the project and send reception reports to the HMO. The receivers, supplied in kit form, provide an educational opportunity as the children assemble and install them with assistance from local amateur radio clubs. The project includes a competitive element for the learners, as schools compete to be the first to decode the "secret messages" that some of the beacons transmit. According to Dr Lee-Anne McKinnell, the HMO Space Physics Group manager, "This project is truly a collaborative project. It will benefit the scientists, the hobbyists, and the schools".
+The project stalled soon after launch due to problems co-ordinating the timing of the transmitters.
+
+Satellite projects
+Through its affiliate, AMSAT SA, the League has participated in two amateur radio satellite projects.
+
+SUNSAT
+The league collaborated on SUNSAT with Stellenbosch University's department of electronic engineering. The amateur radio payload on SUNSAT, defined in partnership with AMSAT SA, included a packet radio service and speech transponders.
+
+SumbandilaSat
+The league also participated in the SumbandilaSat project, developed by SunSpace. The satellite, later designated OSCAR 67 (SO-67), carried an amateur 2 m/70 cm transponder and a digitalker to serve the amateur radio community and for educational outreach. Launched in 2009, SumbandilaSat captured over 1,100 images for use in disaster management and resource monitoring, including for floods in Namibia and fires in the Kruger National Park. The South African National Space Agency (SANSA) announced that the satellite de-orbited on 10 December 2021 after its mission concluded.
+AMSAT SA started a Cubesat programme in 2011.
+
+References
+External links
+South African Radio League official web site

@@ -1,0 +1,36 @@
+A bug zapper, more formally called an electrical discharge insect control system, electric insect killer or (insect) electrocutor trap, is a device that attracts and kills flying insects that are attracted by light. A light source attracts insects to an electrical grid, where they are electrocuted by touching two wires with a high voltage between them. The name comes from the characteristic onomatopoeic "zap" sound produced when an insect is electrocuted.
+
+Description
+Bug zappers are usually housed in a protective cage of plastic or grounded metal bars to prevent people or larger animals from touching the high voltage grid.  A light source is fitted inside, often a fluorescent lamp designed to emit both visible and ultraviolet light, which is visible to insects and attracts a variety of them. Newer models now use long-life LEDs to produce the light. The light source is surrounded by a pair of interleaved bare wire grids or helices. The distance between adjacent wires is typically about 2 mm (0.079 in). 
+A high-voltage power supply powered by wall power is used, which may be a simple transformerless voltage multiplier circuit made with diodes and capacitors which can generate a voltage of 2 kilovolts or more. This is high enough to conduct through the body of an insect which bridges the two grids, but not high enough to spark across the air gap. Enough electric current flows through the small body of the insect to heat it to a high temperature. The impedance of the power supply and the arrangement of the grid is such that it cannot drive a dangerous current through the body of a human. 
+
+Many bug zappers are fitted with trays that collect the electrocuted insects; other models are designed to allow the debris to fall to the ground below. Some use a fan to help to trap the insect.
+
+Indoors or outdoors use
+Bug zapper traps may be installed indoors, or outdoors if they are constructed to withstand the effects of weather.
+However, they are not effective at killing biting insects (female mosquitoes and other insects) outdoors, being much more effective at attracting and killing other harmless and beneficial insects. A study by the University of Delaware showed that over a period of 15 summer nights, 13,789 insects were killed among six devices. Of those insects killed, only 31 were biting insects. 
+Mosquitoes are attracted to carbon dioxide and water vapor in the breath of mammals, not ultraviolet light. However, there are now bug zappers that emit carbon dioxide or use an external bait, such as octenol, to better attract biting insects into the trap.
+
+Scattering
+Research has shown that when insects are electrocuted, bug zappers can spread a mist containing insect parts up to about 2 metres (6 feet 7 inches) from the device. The air around the bug zapper can become contaminated by bacteria and viruses that can be inhaled by, or settle on the food of people in the immediate vicinity.
+The US Food and Drug Administration (FDA) advises that the bug zapper should not be installed above a food preparation area, and that insects should be retained within the device. Scatter-proof designs are produced for this purpose.
+
+Hand-held type
+Battery-powered bug zappers are manufactured, often in the shape of a tennis racket, with which flying insects can be hit. Low-cost versions may use a standard disposable battery, while rechargeable bug zappers may use a lithium-ion battery.
+
+History
+In its October 1911 issue, Popular Mechanics magazine had a piece showing a model "fly trap" that used all the elements of a modern bug zapper, including electric light and electrified grid. The design was implemented by two unnamed Denver men and was conceded to be too expensive to be of practical use. The device was 10 by 15 inches (25 by 38 cm), contained 5 incandescent light bulbs, and the grid was 1⁄16-inch (1.59 mm) wires spaced 1⁄8-inch (3.17 mm) apart with a voltage of 450 volts. Users were supposed to bait the interior with meat.
+According to the US Patent and Trademark Office, the first bug zapper was patented in 1932 by William M. Frost.
+Separately, William Brodbeck Herms (1876–1949), a professor of parasitology at the University of California, had been working on large commercial insect traps for over 20 years for the protection of California's important fruit industry.  In 1934 he introduced the electronic insect killer that became the model for all future bug zappers.
+
+See also
+
+Electric flyswatter
+Fly-killing device
+Insect repellents from natural sources
+Moth trap
+Nematocera
+Personal protective equipment
+
+
+== References ==
